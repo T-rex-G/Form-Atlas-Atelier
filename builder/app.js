@@ -46,7 +46,16 @@
  for(const id of ['brand','mobileBrand'])$(id).onclick=e=>{e.preventDefault();navigate('discover');};
  function resetFilters(renderNow=true){state.media='all';state.shown=24;$('q').value='';$('technology').value='';$('provider').value='';$('sort').value='curated';if(renderNow)render();}
  $('clear').onclick=()=>resetFilters();$('resetFilters').onclick=()=>resetFilters();$('clearSearch').onclick=()=>{$('q').value='';state.shown=24;render();$('q').focus();};
- function rank(x){if(x.visual_type==='unavailable-placeholder')return 90000+(Number(x.id)||0);if(x.personal)return -1000;if(x.added_batch==='vip-open-source'){const pick=['oss-motion-text-loop','oss-pattern-002','oss-motion-glow-effect','oss-menu-elastic','oss-motion-border-trail','oss-pattern-003','oss-motion-animated-number','oss-motion-tilt'];const i=pick.indexOf(x.id);return i>=0?-800+i:-500;}const i=curated.indexOf(x.id);return i>=0?i:(x.video?100:10000)+(Number(x.id)||0);}
+ function rank(x){
+  if(x.personal)return -1000;
+  const study=x.license==='MIT'||x.added_batch==='vip-open-source';
+  const group=study?2:x.provider==='MotionSites AI'?0:1;
+  let position;
+  if(x.visual_type==='unavailable-placeholder')position=90000+(Number(x.id)||0);
+  else if(study){const pick=['oss-motion-text-loop','oss-pattern-002','oss-motion-glow-effect','oss-menu-elastic','oss-motion-border-trail','oss-pattern-003','oss-motion-animated-number','oss-motion-tilt'];const i=pick.indexOf(x.id);position=i>=0?i:500;}
+  else{const i=curated.indexOf(x.id);position=i>=0?i:(x.video?100:10000)+(Number(x.id)||0);}
+  return group*1000000+position;
+ }
  function candidates(){const query=$('q').value.trim().toLowerCase(),tech=$('technology').value,provider=$('provider').value;return state.all.filter(x=>(!state.collection||x.collection===state.collection)&&(state.mode!=='video'||!!x.video)&&(state.mode!=='saved'||favs.has(x.id))&&(state.mode!=='personal'||x.personal)&&(!['free','premium','unverified'].includes(state.mode)||(x.access||'unverified')===state.mode&&!x.personal)&&(!provider||(x.provider||sourceOf(x))===provider)&&(!tech||(x.tags||[]).includes(tech))&&(!query||[x.title,x.display_title,x.access_evidence?.source_title,x.access_evidence?.source_author,x.access_evidence?.source_id,x.provider,x.category,...(x.main_site_free?.titles||[]),...(x.main_site_free?.source_ids||[]),...(x.tags||[]),x.prompt].join(' ').toLowerCase().includes(query)));}
 
  function select(){const list=candidates().filter(x=>state.media==='all'||(state.media==='video'?!!x.video:state.media==='code'?!!x.code_file:!x.video));const order=$('sort').value;if(order==='az')list.sort((a,b)=>nameOf(a).localeCompare(nameOf(b)));else if(order==='detailed')list.sort((a,b)=>b.prompt.length-a.prompt.length);else list.sort((a,b)=>rank(a)-rank(b));return list;}
