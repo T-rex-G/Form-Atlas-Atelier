@@ -1,19 +1,21 @@
 {
   "reference_id": 57,
   "description": "Organic motion. Delicate detail. A design in bloom.",
-  "video": "VIDEO/bloom-feature-full.mp4",
-  "poster": "FULL_IMAGES/57.webp",
+  "video": "VIDEO/bloom-code-render-1080p.mp4",
+  "poster": "FULL_IMAGES/bloom-code-render.webp",
   "source": {
+    "kind": "local-code-render",
     "provider": "MotionSites AI",
     "source_id": "bl",
     "source_title": "Bloom",
-    "source_asset": "hero sections/animated (96).webp",
-    "source_sha256": "8314caa5e51babc975219c4ed93734f6dca7ff1c4868ee69f7560c7bf4f367df",
+    "source_asset": "PROMPTS/01-Landing-and-Sections/057-bl.md",
+    "source_sha256": "f1745c7fa3bae0cc1da3ff88b865c9d31971b8300e12a8377a43c199404524a3",
     "checked_on": "2026-10-18",
-    "width": 640,
-    "height": 478,
-    "source_frames": 75,
-    "duration_seconds": 5,
-    "rendition": "Full public preview, all 75 frames; silent H.264 CRF 14 at native resolution. No upscale, crop or invented frames. Not an HD source."
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 32.5,
+    "evidence_file": "SOURCE_AUDIT/BLOOM_RENDER.json",
+    "rendition": "Locally recorded from the unchanged saved Bloom HTML and its three original 1080p video assets. Deliberate scroll pacing, frame-exact seeks, silent H.264, and a 1.5-second wrap dissolve. Not the publisher's preview."
   }
 }

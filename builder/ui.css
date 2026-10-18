@@ -14,7 +14,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 /* Preserve Bloom's full native frame; never crop or simulate extra detail. */
 .maker-note{margin:18px 6px 0;font-size:10px;letter-spacing:.2px;color:var(--faint)}.maker-note span{color:var(--accent);font-weight:550}
 .featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:14px;bottom:14px;z-index:2;display:flex;align-items:center;gap:7px;min-height:36px;min-width:80px;padding:8px 11px;border:1px solid #ffffff38;border-radius:6px;background:#0c0e12df;backdrop-filter:blur(10px);color:#f2eee6;font-size:10px}.featured-motion svg{width:13px;height:13px}
-@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:640/478}.featured-copy{padding:18px}.featured-motion{right:10px;bottom:10px;min-height:36px}.maker-note{font-size:11px}}
+@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:16/9}.featured-copy{padding:18px}.featured-motion{right:10px;bottom:10px;min-height:36px}.maker-note{font-size:11px}}
 @media(max-width:800px){.detail-media.live-active{aspect-ratio:auto;height:360px;max-height:none}}
 .access-evidence{margin-top:18px;padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .access-evidence strong{display:block;font-size:12px;font-weight:600;line-height:1.5}

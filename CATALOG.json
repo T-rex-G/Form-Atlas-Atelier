@@ -3745,14 +3745,14 @@
     "category": "Landing Pages",
     "collection": "01-Landing-and-Sections",
     "prompt_file": "PROMPTS/01-Landing-and-Sections/057-bl.md",
-    "visual": "IMAGES/source-57.webp",
-    "visual_type": "publisher-preview",
+    "visual": "FULL_IMAGES/bloom-code-render.webp",
+    "visual_type": "local-code-render",
     "tags": [
       "HTML/CSS",
       "SVG"
     ],
     "chars": 39567,
-    "media_status": "recovered",
+    "media_status": "local-render",
     "source_mode": "original",
     "source_asset": "animated (96).webp",
     "access": "premium",
@@ -3770,41 +3770,48 @@
     "content_kind": "prompt",
     "added_batch": "original",
     "provider": "MotionSites AI",
-    "full_image": "FULL_IMAGES/57.webp",
+    "full_image": "FULL_IMAGES/bloom-code-render.webp",
     "image_resolution": {
-      "width": 640,
-      "height": 478
+      "width": 1920,
+      "height": 1080
     },
     "preview_verification": {
-      "level": "publisher-matched",
+      "level": "local-code-render",
       "provider": "MotionSites AI",
       "source_title": "Bloom",
       "source_id": "bl",
-      "match_method": "publisher-source-id",
-      "checked_on": "2026-10-17",
-      "source_asset": "animated (96).webp",
-      "source_sha256": "8314caa5e51babc975219c4ed93734f6dca7ff1c4868ee69f7560c7bf4f367df",
-      "local_sha256": "d40ae68c07e09f8ae1d96e9af39cc2b3190c82219eedceca83619781b5d05a2b",
-      "source_identity_sha256": "49776554e8b9d6aa8543240cc82e38be30ab73b2df95d2b34eca0fdbcd89296c"
+      "match_method": "saved-code-and-original-hd-media",
+      "checked_on": "2026-10-18",
+      "source_asset": "PROMPTS/01-Landing-and-Sections/057-bl.md",
+      "source_sha256": "f1745c7fa3bae0cc1da3ff88b865c9d31971b8300e12a8377a43c199404524a3",
+      "evidence_file": "SOURCE_AUDIT/BLOOM_RENDER.json"
     },
     "preview_crop": "full frame",
-    "preview_note": "Matched publisher preview. The current source revision may differ from the archived prompt, which is unchanged. Silent source excerpt: 5.0 seconds.",
+    "preview_note": "Recorded from the saved Bloom code with its original HD assets. Silent 1080p · 30 fps · unhurried motion · soft loop transition. Original prompt unchanged; this is a local recording, not the publisher preview.",
     "display_title": "Bloom",
-    "video": "VIDEO/source-57.mp4",
-    "duration": 5.0,
+    "video": "VIDEO/bloom-code-render-1080p.mp4",
+    "duration": 32.5,
+    "video_loop": true,
     "media_role": "preview",
-    "video_rendition": "Real public source preview · silent H.264 excerpt up to 8 seconds",
+    "video_rendition": "Saved-code recording · 1920 × 1080 · 30 fps · 32.5-second silent loop",
     "preview_video_verification": {
-      "level": "publisher-matched",
+      "level": "local-code-render",
       "provider": "MotionSites AI",
       "source_title": "Bloom",
       "source_id": "bl",
-      "match_method": "publisher-source-id",
-      "checked_on": "2026-10-17",
+      "match_method": "saved-code-and-original-hd-media",
+      "checked_on": "2026-10-18",
+      "source_asset": "PROMPTS/01-Landing-and-Sections/057-bl.md",
+      "source_sha256": "f1745c7fa3bae0cc1da3ff88b865c9d31971b8300e12a8377a43c199404524a3",
+      "evidence_file": "SOURCE_AUDIT/BLOOM_RENDER.json"
+    },
+    "archived_publisher_preview": {
+      "visual": "IMAGES/source-57.webp",
+      "full_image": "FULL_IMAGES/57.webp",
+      "video": "VIDEO/source-57.mp4",
+      "feature_video": "VIDEO/bloom-feature-full.mp4",
       "source_asset": "animated (96).webp",
-      "source_sha256": "8314caa5e51babc975219c4ed93734f6dca7ff1c4868ee69f7560c7bf4f367df",
-      "local_sha256": "dc5de9da12534139713f387158144cd67b047445598551eb12c68762895adcf8",
-      "source_identity_sha256": "49776554e8b9d6aa8543240cc82e38be30ab73b2df95d2b34eca0fdbcd89296c"
+      "source_sha256": "8314caa5e51babc975219c4ed93734f6dca7ff1c4868ee69f7560c7bf4f367df"
     }
   },
   {
