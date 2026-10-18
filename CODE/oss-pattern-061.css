@@ -1,0 +1,42 @@
+/*
+MIT License
+
+Copyright (c) 2022 Temani Afif
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+/* Temani Afif — MIT. See LICENCE. */
+html {
+  --s: 34px; /* control the size (the circle diameter) */
+  --c1: #ECBE13;
+  --c2: #309292;
+  
+  --_g: radial-gradient(calc(var(--s)/2),var(--c1) 97%,#0000);
+  background:
+    var(--_g),var(--_g) calc(2*var(--s)) calc(2*var(--s)),
+    repeating-conic-gradient(from 45deg,#0000 0 25%,var(--c2) 0 50%) calc(-.707*var(--s)) calc(-.707*var(--s)),
+    repeating-linear-gradient(135deg,var(--c1) calc(var(--s)/-2) calc(var(--s)/2),var(--c2) 0 calc(2.328*var(--s)));
+  background-size: calc(4*var(--s)) calc(4*var(--s));
+  /* 
+    0.707 = sqrt(2)/2
+    2.328 = 2*sqrt(2) - .5
+  */
+}

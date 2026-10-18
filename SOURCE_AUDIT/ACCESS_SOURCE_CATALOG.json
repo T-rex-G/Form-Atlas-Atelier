@@ -1,0 +1,6732 @@
+[
+  {
+    "source_id": "ember-dsgn-hero",
+    "title": "EMBER.dsgn",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      132
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aetheris-voyage-hero",
+    "title": "Aetheris Voyage",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      434
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "package-fits-pricing",
+    "title": "What Package Fits You",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      421
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digital-epoch-hero",
+    "title": "Digital Epoch",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      116
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digital-reality-hero",
+    "title": "Digital Reality",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      117
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "velorah-focus-hero",
+    "title": "Velorah Focus",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      400
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rivr-hero",
+    "title": "RIVR",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      335
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "shamoni-hero",
+    "title": "Shamoni",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      353
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rivr-defi-landing",
+    "title": "RIVR DeFi",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      336
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "zenith-realty-landing",
+    "title": "Zenith Realty",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      430
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lumina-footer",
+    "title": "Lumina",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      223
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "haul-footer",
+    "title": "HAUL!",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      184
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vize-footer",
+    "title": "Vize Footer",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      410
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "glow-features",
+    "title": "Glow Features",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      172
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "zenith-footer",
+    "title": "Zenith Footer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      429
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "community-cta",
+    "title": "Community CTA",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      88
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "kresna-footer",
+    "title": "Kresna Footer",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      209
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "impressive-hero",
+    "title": "Impressive Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      189
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "slam-dunk-hero",
+    "title": "Slam Dunk",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      357,
+      358
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nova-space-landing",
+    "title": "NOVA Space Systems",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      286,
+      288
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "akor-security-landing",
+    "title": "AKOR Security",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      24,
+      25
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexus-hero",
+    "title": "Nexus IT Solutions",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      270,
+      271
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bionova-hero",
+    "title": "Bionova Biotech",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      55,
+      56
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbit-engineers",
+    "title": "Orbit Engineers",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      295
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "finlytic-hero",
+    "title": "Finlytic AI Agent",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      150,
+      151
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "price-calculator",
+    "title": "Price Calculator",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      314
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "skyelite-hero",
+    "title": "SkyElite Private Jets",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      475
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "deck-investor",
+    "title": "Investor Deck",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      112,
+      203
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "0",
+    "title": "Wealth Video Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      414
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "1",
+    "title": "New Era Bold Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      260
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "2",
+    "title": "Taskora SaaS Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      378
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3",
+    "title": "ClearInvoice SaaS Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      1,
+      78
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "4",
+    "title": "Datacore SaaS Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      6,
+      110
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "5",
+    "title": "Glassmorphism Agency Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      8,
+      169
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "6",
+    "title": "Bold Portfolio Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      61
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "7",
+    "title": "Synapse Dark Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      373
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "8",
+    "title": "New Era Automotive Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      259
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "9",
+    "title": "Web3 EOS Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      415
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "10",
+    "title": "AI Automation Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      16
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "securify-hero",
+    "title": "Securify Data Security",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      344
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "11",
+    "title": "Weblex Dark Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      416
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "12",
+    "title": "Targo Logistics Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      376
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "13",
+    "title": "Framelix 3D Studios",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      159
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "14",
+    "title": "Logoisum Video Agency",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      222
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "15",
+    "title": "Dark Portfolio Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      108
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "16",
+    "title": "HR SaaS Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      456
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "18",
+    "title": "Loader Animation",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      219
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "19",
+    "title": "Viktor Portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      405
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "20",
+    "title": "Space Voyage",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "21",
+    "title": "Buzzentic Agency",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      67
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "apex-saas-hero",
+    "title": "Apex SaaS",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      30,
+      440
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "datacore-booking-hero",
+    "title": "Datacore Booking",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      111
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "halo-usd-landing",
+    "title": "USD Halo",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      455
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "convix-software-hero",
+    "title": "SAAS Software",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      446
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "slate-hero",
+    "title": "Slate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      359
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "codercrest-hero",
+    "title": "CoderCrest",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      82
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digitwist-hero",
+    "title": "Digitwist AI Builder",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      118
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "codenest-hero",
+    "title": "CodeNest Coding Platform",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      81
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "grow-ai-hero",
+    "title": "Grow AI Talent Platform",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      176,
+      178
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pro-ai-deck",
+    "title": "Pro AI Deck",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      323
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "velorah-hero",
+    "title": "Velorah",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      399
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexora-features",
+    "title": "Nexora Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      267
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "veloce-finance-landing",
+    "title": "Veloce Finance",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      398
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "planet-orbit-hero",
+    "title": "Planet Orbit",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      308,
+      309
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neuralyn-hero",
+    "title": "Neuralyn",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      258
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "liquid-glass-agency",
+    "title": "Liquid Glass Agency",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      215
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "guardnet-landing",
+    "title": "Guardnet",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      181
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neovision-landing",
+    "title": "NeoVision",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      254,
+      464
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbis-nft-landing",
+    "title": "Orbis NFT",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      294
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bloom-ai-hero",
+    "title": "Bloom AI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      60
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "taskly-hero",
+    "title": "Taskly",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      377
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "railroad-ai-hero",
+    "title": "Railroad.ai",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      330,
+      471
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexora-hero",
+    "title": "Nexora Automation",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      266
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nickel-hero",
+    "title": "Nickel Payments",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      273,
+      274
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "clubx-hero",
+    "title": "ClubX Investors",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      80,
+      445
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "evr-ventures-hero",
+    "title": "EVR Ventures",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      135,
+      136
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mindloop-hero",
+    "title": "Mindloop",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      238,
+      239
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mindloop-landing",
+    "title": "Mindloop Landing",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      240
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "terra-hero",
+    "title": "Terra Geo Map",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      382,
+      383
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbit-web3-hero",
+    "title": "Orbit Web3",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      296,
+      297
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-designer-agency",
+    "title": "AI Designer Agency",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      17
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "automation-machines-hero",
+    "title": "Automation Machines",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      43,
+      44
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "power-ai-hero",
+    "title": "Power AI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      313
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luminex-hero",
+    "title": "Luminex",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      226
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "prisma-landing",
+    "title": "Prisma Creative Studio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      469
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ecommerce-website-landing",
+    "title": "E-commerce Website",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      121,
+      124
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aethera-hero",
+    "title": "Aethera Studio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      13
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "asme-hero",
+    "title": "Asme",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      441
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "transform-data-hero",
+    "title": "Transform Data",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      388
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wisa-space-hero",
+    "title": "WISA Space",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      422,
+      423
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-jack-portfolio-hero",
+    "title": "3D Jack Portfolio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      79,
+      432
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title",
+      "exact-source-id-in-original-prompt"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dot-hero",
+    "title": "Dot",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      451
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "duolingo-styleguide-hero",
+    "title": "Duolingo Styleguide",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      120
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "portfolio-cosmic-hero",
+    "title": "Portfolio Cosmic",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      312
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "xportfolio-hero",
+    "title": "xPortfolio Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      483
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "designpro-hero",
+    "title": "DesignPro Academy",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      449
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "prioritize-hero",
+    "title": "Prioritize",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      321
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stellar-ai-hero",
+    "title": "Stellar AI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      368
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stellar-ai-v2-hero",
+    "title": "Sync AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      367,
+      374
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "keep-ahead-features",
+    "title": "Keep Ahead Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      205
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "benefits-features",
+    "title": "Benefits Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      50
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vertex-ai-hero",
+    "title": "VertexAI Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      403
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vortex-studio-hero",
+    "title": "AI Designer Portfolio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      22
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "acreage-farming-hero",
+    "title": "Acreage Farming",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      9,
+      10
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "design-rocket-email-hero",
+    "title": "Email Marketing",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      131
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nike-premium-landing",
+    "title": "Nike Premium Landing",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      276
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexacore-hero",
+    "title": "NexaCore",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      262
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "urban-jungle-hero",
+    "title": "Urban Jungle",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      393,
+      394
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "yacht-club-hero",
+    "title": "Yacht Club",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      426
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "innovation-landing",
+    "title": "Innovation",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      193
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "focus-ai-landing",
+    "title": "Focus AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      154
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vex-ventures-hero",
+    "title": "VEX Ventures",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      404
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vitara-hero",
+    "title": "Vitara",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      409
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "portal-hero",
+    "title": "Portal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "flowmate-landing",
+    "title": "FlowMate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      153
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexar-hero",
+    "title": "Nexar",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      265
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ecovolta-hero",
+    "title": "EcoVolta",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      126
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ecovolta-v2-hero",
+    "title": "EcoVolta V2",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      127
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sentinel-ai-hero",
+    "title": "Sentinel AI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      345
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "social-media-posts-hero",
+    "title": "Social Media Posts",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      360
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "crypto-wealth-hero",
+    "title": "Crypto Wealth",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      99
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cinematic-landing-page",
+    "title": "Cinematic Landing Page",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      76
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "layered-depth",
+    "title": "Layered Depth",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      212
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "shadow-3d",
+    "title": "Shadow 3D",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "no-code-waitlist",
+    "title": "No-Code Waitlist",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      289
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neon-logic",
+    "title": "Neon Logic",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      253
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "scroll-marquee",
+    "title": "Scroll Marquee",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      343
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rocket-pricing",
+    "title": "Rocket Pricing",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      339
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "velorix-iic",
+    "title": "Velorix IIC",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      401
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "yoga-coach",
+    "title": "Yoga Coach",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      427
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-real-estate",
+    "title": "Luxury Real Estate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      232
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sky-estate",
+    "title": "Sky Estate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      355
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "glitch-pulse",
+    "title": "Glitch Pulse",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      170
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "obsidian-hero",
+    "title": "Obsidian Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      290
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mythic-naturecore",
+    "title": "Mythic Naturecore",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      248
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbis-cta",
+    "title": "Orbis CTA",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      292
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bl",
+    "title": "Bloom",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      57
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "guardnet-demo",
+    "title": "Guardnet Demo",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      180
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "reading-library",
+    "title": "Reading Library",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "interior-features",
+    "title": "Interior Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      201
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "liquid-glass-features",
+    "title": "Liquid Glass Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      217
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "kova-testimonial",
+    "title": "Kova Testimonial",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      208
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexacore-control",
+    "title": "NexaCore Control",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      261
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-pricing",
+    "title": "NimBus Pricing",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      279
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-botanical",
+    "title": "Luxury Botanical",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      227
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "reveal-hero",
+    "title": "Reveal Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      334
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "shop",
+    "title": "Daisy Shop",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      107
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wellness-balance",
+    "title": "Wellness Balance",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      418
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "agency-services",
+    "title": "Agency Services",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      14
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "404-planet",
+    "title": "404 Planet",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      7
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bio-age-dashboard",
+    "title": "Bio-Age Dashboard",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      53
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "axion-about",
+    "title": "Axion About",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      45
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "interactive-portfolio",
+    "title": "Interactive Portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      198
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "guardnet-benefits",
+    "title": "Guardnet Benefits",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      179
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "liquid-glass-cta",
+    "title": "Liquid Glass CTA",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      216
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "learnly",
+    "title": "Learnly",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      214
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "book-hero",
+    "title": "Book Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      64
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "global-cta-footer",
+    "title": "Global CTA Footer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      171
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "launchex-about",
+    "title": "LaunchEx About",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      210
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-grid",
+    "title": "Nimbus Grid",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      282
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rocket-faq",
+    "title": "Rocket FAQ",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      338
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-image-generator-ui",
+    "title": "AI Image Generator UI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      23
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cursor-follow",
+    "title": "Cursor Follow",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      101
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "futuristic-cinematic",
+    "title": "Futuristic Cinematic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      162
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "intelligentx",
+    "title": "IntelligentX",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      196
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "modern-hr-dashboard",
+    "title": "Modern HR Dashboard",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      243
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "outdoor-apparel",
+    "title": "Outdoor Apparel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      300
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexacore-process",
+    "title": "NexaCore Process",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      263
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "fun-404-page",
+    "title": "Fun 404 Page",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      453
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-demo",
+    "title": "Nimbus Demo",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      277
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stillmind",
+    "title": "Stillmind",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      370
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "saas-value",
+    "title": "SaaS Value",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      341
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "projects-catalog",
+    "title": "Projects Catalog",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      325
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "blog-showcase",
+    "title": "Blog Showcase",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      58
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "equilibrium",
+    "title": "Equilibrium",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      133
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "evergreen-finance",
+    "title": "Evergreen Finance",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      134
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "flowmate-carousal",
+    "title": "FlowMate Carousal",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      152
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "minimal-workflow-saas",
+    "title": "Minimal Workflow SaaS",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      241
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mythic-vpn",
+    "title": "Mythic VPN",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aesthetic-dental-clinic",
+    "title": "Aesthetic Dental Clinic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lead-funnel",
+    "title": "Lead Funnel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      213
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vision-reveal",
+    "title": "Vision Reveal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      407
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "future-state",
+    "title": "Future-State",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      160
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pixel-grid-hover",
+    "title": "Pixel Grid Hover",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      305
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "financialfocus",
+    "title": "FinancialFocus",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      148
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "synthesis",
+    "title": "Synthesis",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      375
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "saas-pricing-flow",
+    "title": "SaaS Pricing Flow",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      342
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vertex-sci",
+    "title": "Vertex Sci",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      402
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "404",
+    "title": "Nexto 404",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      269
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "beauty-categories",
+    "title": "Beauty Categories",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      48
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cosmic",
+    "title": "Cosmic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      91
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "inner-quest",
+    "title": "Inner Quest",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cybersecurity",
+    "title": "Cybersecurity",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neural-interface",
+    "title": "Neural Interface",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      257
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "immersive-ocean",
+    "title": "Immersive Ocean",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      187
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "launchex-submissions",
+    "title": "LaunchEx Submissions",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      211
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "glassmorphic-feature-tabs",
+    "title": "Glassmorphic Feature Tabs",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      168
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "max-reed-portfolio",
+    "title": "Max Reed Portfolio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      236
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nex-max-upgrade",
+    "title": "Nex Max Upgrade",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      272
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "tech-noir-about",
+    "title": "Tech-Noir About",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      380
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "travel-hero",
+    "title": "Scenic Travel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      481
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-studio-pricing",
+    "title": "3D Studio Pricing",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      3
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "apex-program-accordion",
+    "title": "Apex Program Accordion",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      28
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cinematic-brand",
+    "title": "Cinematic Brand",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      75
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "audio-showcase",
+    "title": "Audio Showcase",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      39
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digital-experiences",
+    "title": "Digital Experiences",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      115
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "eco-intelligence",
+    "title": "Eco Intelligence",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      123
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aurora-onboard",
+    "title": "Aurora Onboard",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      42
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "investment-hero",
+    "title": "Investment Gate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      202
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "naturecore-saas",
+    "title": "Naturecore SaaS",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      251
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbis-cards",
+    "title": "Orbis Cards",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      291
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "solace-sign-in",
+    "title": "Solace sign-in",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      361
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "model-infrastructure",
+    "title": "Model Infrastructure",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "build-with-us",
+    "title": "Build With Us",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      66
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "conversion",
+    "title": "Conversion",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      90
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cybersecurity-hero-v2",
+    "title": "Cybersecurity Hero v2",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      104
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cybersecurity-hero",
+    "title": "Cybersecurity Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      103
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "feedback-slider",
+    "title": "Feedback Slider",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      146
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luminara",
+    "title": "Luminara",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      224
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wellness-device",
+    "title": "Wellness Devicex",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      482
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "growth-marketing-saas",
+    "title": "Growth Marketing SaaS",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      177
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cosmos-interface",
+    "title": "Cosmos Interface",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      92
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "freight-command",
+    "title": "Freight Command",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "fitness-dashboard",
+    "title": "Fitness Dashboard",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "finance-assistant",
+    "title": "Finance Assistant",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-editorial-ecommerce-design",
+    "title": "Luxury Ecommerce Design",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      460
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "remit-race",
+    "title": "Remit Race",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      332
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-interface",
+    "title": "AI Interface",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      19
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cross-border",
+    "title": "Cross-Border",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      97
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-hero",
+    "title": "Luxury Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      230
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "subscription-agency",
+    "title": "Subscription Agency",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      371
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "supplement-shop",
+    "title": "Supplement Shop",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      372
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wellbeing-os",
+    "title": "Wellbeing OS",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      417
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pet-products",
+    "title": "Pet Products",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      303
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "kova-features",
+    "title": "Kova Features",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      207
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "imperial-vpn",
+    "title": "Imperial VPN",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "media-card-carousel",
+    "title": "Media Card Carousel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      237
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "prosthetics-hero",
+    "title": "Prosthetics Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      327
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "retro-futurist",
+    "title": "Retro-Futurist",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      333
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lending-ai-agents",
+    "title": "Lending AI Agents",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cargox-mobile",
+    "title": "CARGOX Mobile",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      71
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "contact-cybernetic",
+    "title": "Contact Cybernetic",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      89
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "halo-benefits",
+    "title": "Halo Benefits",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      182
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "health-portal",
+    "title": "Health Portal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      185
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-focus",
+    "title": "Luxury Focus",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      229
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "impact-ventures",
+    "title": "Impact Ventures",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      188
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "halo-use-case",
+    "title": "Halo Use Case",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      183
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "innovation-summit",
+    "title": "Innovation Summit",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      192
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "integration-saas",
+    "title": "Integration SaaS",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      194
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "luxury-escapes",
+    "title": "Luxury Escapes",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      228
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lodge-booking-app",
+    "title": "Lodge Booking App",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      221
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "innovation-studio",
+    "title": "Innovation Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      191
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "gear-shop",
+    "title": "Gear Shop",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      166
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wanderful-hero",
+    "title": "Wanderful Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      412
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "waitlist-hero",
+    "title": "Waitlist Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      411
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "veloce-cards",
+    "title": "Veloce Cards",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      397
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wellness-companion",
+    "title": "Wellness Companion",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      419
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "travel-explorer",
+    "title": "Travel Explorer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      389
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "social-hangouts",
+    "title": "Social Hangouts",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nike-hover",
+    "title": "Nike Hover",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      275
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mouse-trail-cta",
+    "title": "Mouse Trail CTA",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      246
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbis-hello",
+    "title": "Orbis Hello",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      293
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-sticky-cards",
+    "title": "Nimbus Sticky Cards",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      281
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "organic-odyssey",
+    "title": "Organic Odyssey",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      298
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-security",
+    "title": "Nimbus Security",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      280
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "novadesk-signup",
+    "title": "NovaDesk Signup",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      287
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexacore-results",
+    "title": "NexaCore Results",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      264
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-ops",
+    "title": "Nimbus Ops",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      278
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "network-hero",
+    "title": "Network Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      256
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mood-tracker",
+    "title": "Mood Tracker",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      244
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "movie-premiere",
+    "title": "Movie Premiere",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      247
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "portal",
+    "title": "Portal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      310
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "modern-agency",
+    "title": "Modern Agency",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      242
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "place-saver",
+    "title": "Place Saver",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      307
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "places-organizer",
+    "title": "Places Organizer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "modern-dental-clinic",
+    "title": "Modern Dental Clinic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "travel-journal",
+    "title": "Travel Journal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      390
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "celestial-renewal",
+    "title": "Celestial Renewal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      74
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "solar-energy-hero",
+    "title": "Solar Energy Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      362
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-workflow-agents",
+    "title": "AI Workflow Agents",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      438
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-assistant-app",
+    "title": "AI Assistant App",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "immersive-studio",
+    "title": "Immersive Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "shipping-infrastructure",
+    "title": "Shipping Infrastructure",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "f1-racing-hub",
+    "title": "F1 Racing Hub",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      452
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-workflow",
+    "title": "AI Workflow Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      439
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "adaptive-learning",
+    "title": "Adaptive Learning",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cyberpunk-reveal",
+    "title": "Cyberpunk Reveal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      102
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "portfolio-about",
+    "title": "Portfolio About",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      311
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "tech-forward",
+    "title": "Tech-Forward",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      379
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "technical-specifications",
+    "title": "Technical Specifications",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      381
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "speakup-venture-hero",
+    "title": "SpeakUp Venture Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      365
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "radial-diagram",
+    "title": "Radial Diagram",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      329
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rocket-cta",
+    "title": "Rocket CTA",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      337
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stellar-launch",
+    "title": "Stellar Launch",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      369
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stark-minimal-footer",
+    "title": "Stark Minimal Footer",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      366
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "skills-lea",
+    "title": "LearnHub",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      354
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "prompt-hero",
+    "title": "PROMPT",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      326
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "scroll-landing",
+    "title": "Scroll Landing Page",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      474
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-meeting-notes",
+    "title": "AI Meeting Notes",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      20
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "live-language-classes",
+    "title": "Live Language Classes",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "album-release",
+    "title": "Album App",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mind-body-healing",
+    "title": "Mind-Body Healing",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      461
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dental-care-app",
+    "title": "Dental Care App",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "innovation-lab",
+    "title": "Innovation Lab",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      457
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "f1-driver-profile",
+    "title": "F1 Driver Profile",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creative-designer-portfolio",
+    "title": "Creative Designer Portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "gateway-portal",
+    "title": "Gateway Portal",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      165
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-story",
+    "title": "3D Story",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      2
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bio-active",
+    "title": "Clarity Core",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      52
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-driving-assistant",
+    "title": "AI Driving Assistant",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      18
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vaultshield",
+    "title": "VaultShield",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      396
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "jewelry-store",
+    "title": "Jewelry Store",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      204
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "art-landing",
+    "title": "Art Landing",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      36
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "visual-hero",
+    "title": "Visual Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      408
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dental-implant-clinic",
+    "title": "Dental Implant Clinic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "church-community",
+    "title": "Church Community",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      444
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "fine-jewelry-shop",
+    "title": "Fine Jewelry Shop",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-automation",
+    "title": "AI Automation",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      21
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aerocore",
+    "title": "AeroCore",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      12
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-collectible-hero",
+    "title": "3D Collectible Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      5
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-calorie-tracker",
+    "title": "AI Calorie Tracker",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arceage-contact-us",
+    "title": "Arceage Contact Us",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      31
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arceage-testimonial",
+    "title": "Arceage Testimonial",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      34
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cognitra-offer",
+    "title": "Cognitra Offer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      86
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "botanical-shadow-about",
+    "title": "Botanical Shadow About",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      65
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bookedup",
+    "title": "BookedUp",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      63
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bio-digital",
+    "title": "Bio-Digital",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      54
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "auramail",
+    "title": "AuraMail",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      40
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bento-grid-stats",
+    "title": "Bento Grid Stats",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      51
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "beauty-products",
+    "title": "Beauty Products",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      49
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wellness-hero",
+    "title": "Wellness Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      420
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bold-studio",
+    "title": "Bold Studio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      62
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "animated-cards",
+    "title": "Animated Cards",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      27
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arceage-stats",
+    "title": "Arceage Stats",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      33
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "apex-pulse",
+    "title": "Apex Pulse",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      29
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arceage-services",
+    "title": "Arceage Services",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      32
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cognitra-feature",
+    "title": "Cognitra Feature",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      85
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "coffee-rewards",
+    "title": "Coffee Rewards",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      84
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cargo-group",
+    "title": "Cargo Group",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      70
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "faq-cta",
+    "title": "FAQ CTA",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      139
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "futuristic-tech",
+    "title": "Futuristic Tech",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      164
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "unwind-hero",
+    "title": "Unwind Hero",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      392
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "email-landing-page",
+    "title": "Email Landing Page",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      130
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dashboard",
+    "title": "Dashboard UI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      109
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "editorial-collection-cta",
+    "title": "Editorial Collection CTA",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      128
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creative-studio",
+    "title": "Creative Studio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      96
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creative-portfolio",
+    "title": "Creative Portfolio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      94
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creative-agency",
+    "title": "Creative Agency",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      95
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "features",
+    "title": "Capabilities Overview",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      141
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cozypaws",
+    "title": "CozyPaws",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      93
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "finflow",
+    "title": "FinFlow",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      149
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "daisy-sweet",
+    "title": "Daisy Sweet",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      105
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "daisy-wild",
+    "title": "Daisy Wild",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      106
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "footballer-portfolio",
+    "title": "Footballer Portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bite-sized-courses",
+    "title": "Bite-Sized Courses",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "financial-suite",
+    "title": "Financial Suite",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      147
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "data-storytelling",
+    "title": "Data Storytelling",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "interactive-discovery",
+    "title": "Interactive Discovery",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      197
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "adhd-planner",
+    "title": "ADHD Planner",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      433
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-trip-planner",
+    "title": "AI Trip Planner",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arctic-lab",
+    "title": "Arctic Lab",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "routine-coach",
+    "title": "Routine Coach",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "personal-showcase",
+    "title": "Personal Showcase",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      467
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "automotive-ai",
+    "title": "Automotive AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "avant-studio",
+    "title": "Avant Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cleantech",
+    "title": "CleanTech",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      77
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "deep-neural-interface",
+    "title": "Deep Neural Interface",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "editorial-eyewear",
+    "title": "Editorial Eyewear",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sentinel",
+    "title": "Sentinel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "trustflow",
+    "title": "TrustFlow",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "forecast-center",
+    "title": "Forecast Center",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cloud-kicks",
+    "title": "Cloud Kicks",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "augmented-sight",
+    "title": "Augmented Sight",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "futuristic-eyewear",
+    "title": "Futuristic Eyewear",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neo-museum",
+    "title": "Neo Museum",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      255
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "oyla",
+    "title": "OYLA",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      301
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "performance-eyewear",
+    "title": "Performance Eyewear",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "product-studio",
+    "title": "Product Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      324
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pulse-3d",
+    "title": "Pulse 3D",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      328
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "spatial-mapping-platform",
+    "title": "Spatial Mapping Platform",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cobalt-hour",
+    "title": "Cobalt Hour",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "custom-spaces",
+    "title": "Custom Spaces",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-property",
+    "title": "3D Property",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digital-director",
+    "title": "Digital Director",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      450
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "form-study",
+    "title": "Form Study",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "website-builder",
+    "title": "Website Builder",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "robot-battle-arena",
+    "title": "Robot Battle Arena",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "remote-dev-collective",
+    "title": "Remote Dev Collective",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "intelligent-operations",
+    "title": "Intelligent Operations",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      459
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creator-guild",
+    "title": "Creator Guild",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sweet-question",
+    "title": "Sweet Question",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "build-unit",
+    "title": "Build Unit",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dreamcore-landing",
+    "title": "Dreamcore Landing",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      119
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "skybridge-404",
+    "title": "Skybridge 404",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      476
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "synth-mode",
+    "title": "Synth Mode",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      478
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "silent-velocity",
+    "title": "Silent Velocity",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "golden-portal",
+    "title": "Golden Portal",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      173
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "breathstone",
+    "title": "Breathstone",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "halo-sound",
+    "title": "Halo Sound",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "agent-grove",
+    "title": "Agent Grove",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      435
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "bitcoin-yield",
+    "title": "Bitcoin Yield",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sparkform",
+    "title": "Sparkform",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mostar-guide",
+    "title": "Mostar Guide",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      462
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ink-dynasty",
+    "title": "Ink Dynasty",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nomi-ai-agent",
+    "title": "Nomi AI Agent",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "macos-widget",
+    "title": "macOS widget",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "performance-run",
+    "title": "Performance Run",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "signal-id",
+    "title": "Signal ID",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "coastal-estate",
+    "title": "Coastal Estate",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-companions",
+    "title": "AI Companions",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "talent-collective",
+    "title": "Talent Collective",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      479
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "data-relay",
+    "title": "Data Relay",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "intelligence-layer",
+    "title": "Intelligence Layer",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      458
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "tokyo-nocturne",
+    "title": "Tokyo Nocturne",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sea-serenade",
+    "title": "Sea Serenade",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "task-engine",
+    "title": "Task Engine",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      480
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-film-studio",
+    "title": "AI Film Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "motion-frame",
+    "title": "Motion Frame",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mindful-companion",
+    "title": "Mindful Companion",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "autonomous-ops",
+    "title": "Autonomous Ops",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      443
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "open-agent",
+    "title": "Open Agent",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "intelligent-systems",
+    "title": "Intelligent Systems",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "agent-crew",
+    "title": "Agent Crew",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbit-flora",
+    "title": "Orbit Flora",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      465
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "data-signal",
+    "title": "Data Signal",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      448
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cyber-layer",
+    "title": "Cyber Layer",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      447
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-runtime",
+    "title": "AI Runtime",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      437
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "worldwide-hubs",
+    "title": "Worldwide Hubs",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "deepthink",
+    "title": "DeepThink",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "relocation-card",
+    "title": "Relocation Card",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "systema",
+    "title": "Systema",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "frontier",
+    "title": "Frontier",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cardia-3d",
+    "title": "Cardia 3D",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sky-cookie",
+    "title": "Sky Cookie",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "real-time-alerts",
+    "title": "Real-Time Alerts",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      472
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "growth-analytics",
+    "title": "Growth Analytics",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mountain-retreat",
+    "title": "Mountain Retreat",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pet-diagnostics",
+    "title": "Pet Diagnostics",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      468
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-bloom-layer",
+    "title": "3D Bloom Layer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "spectrum-grid",
+    "title": "Spectrum Grid",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "growth-decisions",
+    "title": "Growth Decisions",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      454
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-future-studio",
+    "title": "AI Future Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "planetary-pulse",
+    "title": "Planetary Pulse",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "glass-orb",
+    "title": "Glass Orb",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ascera-ai",
+    "title": "Ascera AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nature-ritual",
+    "title": "Nature Ritual",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "aurex-finance",
+    "title": "Aurex Finance",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      442
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "global-hubs",
+    "title": "Global Hubs",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "agent-wave",
+    "title": "Agent Wave",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      436
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-future-flora",
+    "title": "3D Future Flora",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ai-cyber-defense",
+    "title": "AI Cyber Defense",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "quantum-core",
+    "title": "Quantum Core",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "buildshield",
+    "title": "BuildShield",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "terravision",
+    "title": "TerraVision",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "angel-shield",
+    "title": "Angel Shield",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "palomar-labs",
+    "title": "Palomar Labs",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      466
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pixel-muse",
+    "title": "Pixel Muse",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "creative-matter",
+    "title": "Creative Matter",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "rare-gallery",
+    "title": "Rare Gallery",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nexa-talent",
+    "title": "Nexa Talent",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "scaling-platform",
+    "title": "Scaling Platform",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      473
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "arc-summit",
+    "title": "arc Summit",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vectrus-energy",
+    "title": "Vectrus Energy",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "obsidian",
+    "title": "Obsidian",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "geno-trace",
+    "title": "Geno Trace",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "crypto-vault",
+    "title": "Crypto Vault",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "3d-character-studio",
+    "title": "3D Character Studio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mistveil",
+    "title": "Mistveil",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "skyflora",
+    "title": "Skyflora",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "gridcore",
+    "title": "Gridcore",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "quantum-lucid",
+    "title": "Quantum Lucid",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      470
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "global-gateway",
+    "title": "Global gateway",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "fastshot",
+    "title": "Fastshot",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nietzsche-sustainibilty",
+    "title": "Nietzsche sustainibilty",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vela-ul",
+    "title": "Vela Ul",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "heart-health-dashboard",
+    "title": "Heart Health Dashboard",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "space-planet",
+    "title": "Space planet",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      477
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nex-robotics",
+    "title": "NEX Robotics",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "northstar",
+    "title": "Northstar",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "peakline-redshift",
+    "title": "Peakline Redshift",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "skytrace",
+    "title": "Skytrace",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cyber-ronin",
+    "title": "Cyber Ronin",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wealthcore",
+    "title": "Wealthcore",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mindora",
+    "title": "Mindora",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "junglemind",
+    "title": "JungleMind",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "global-talent",
+    "title": "Global Talent",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "codeveil",
+    "title": "Codeveil",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "heritage-grove",
+    "title": "Heritage Grove",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vintage-care",
+    "title": "Vintage Care",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "trueearth",
+    "title": "TrueEarth",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "frostbound",
+    "title": "Frostbound",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cosmic-mapping",
+    "title": "Cosmic Mapping",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "human-machine",
+    "title": "Human Machine",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "intelligent-performance",
+    "title": "Intelligent Performance",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "digital-persona",
+    "title": "Digital Persona",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "playful-idea",
+    "title": "Playful Idea",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "celestix",
+    "title": "Celestix",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ltx-video",
+    "title": "LTX Video",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "havenorbi",
+    "title": "HAVENORBI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vitalis",
+    "title": "Vitalis",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vinyl",
+    "title": "Vinyl",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "way-farer",
+    "title": "Way Farer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orange-horse",
+    "title": "Orange Horse",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cast-and-render",
+    "title": "Cast and Render",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "veyra-electric",
+    "title": "Veyra Electric",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ascend",
+    "title": "Ascend",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "alethia",
+    "title": "Alethia",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cordex",
+    "title": "Cordex",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "keel",
+    "title": "Keel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sur-face",
+    "title": "Sur(face)",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orbit-stickers",
+    "title": "Orbit Stickers",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "monolithic",
+    "title": "Monolithic",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "undr-drift",
+    "title": "Undr Drift",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vertex",
+    "title": "Vertex",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "orla-fashion",
+    "title": "Orla Fashion",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "sellix",
+    "title": "Sellix",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "axle-journey",
+    "title": "Axle Journey",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "mind-ai",
+    "title": "Mind AI",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nature-portfolio",
+    "title": "Nature Portfolio",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "humanoid-flow",
+    "title": "Humanoid Flow",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nebula-hero",
+    "title": "Nebula Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lunar-carousel",
+    "title": "Lunar Carousel",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "monolith-hero",
+    "title": "Monolith Hero",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nox-grid",
+    "title": "NOX Grid",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "gold-standard",
+    "title": "Gold Standard",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "react-vision",
+    "title": "React Vision",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nival-cyberspace",
+    "title": "ConSentinel",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "anchor-ai",
+    "title": "Anchor AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "quantum-human",
+    "title": "Quantum Human",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "future-machine",
+    "title": "Future Machine",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "future-3d-portfolio",
+    "title": "Future 3D Portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "neural-pathway",
+    "title": "Neural Pathway",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "particle-field",
+    "title": "Particle Field",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "menuchi",
+    "title": "Menuchi",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "consentinel",
+    "title": "Nival Cyberspace",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ancient-oath",
+    "title": "Ancient Oath",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dj-zakderdan",
+    "title": "DJ ZakDerdan",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "avelon-drive",
+    "title": "Avelon Drive",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "golden-identity",
+    "title": "Golden Identity",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "space-voyage",
+    "title": "Space Voyage",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [
+      363
+    ],
+    "match_methods": [
+      "exact-publisher-id-or-title"
+    ],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "knowsugar",
+    "title": "KnowSugar",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "verkos-robotics",
+    "title": "Verkos Robotics",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "kernel-code",
+    "title": "Kernel Code",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "frozen-cave",
+    "title": "Frozen Cave",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "grid-runner",
+    "title": "Grid Runner",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "wayfinder",
+    "title": "Wayfinder",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "hover-ink",
+    "title": "Hover Ink",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "plume",
+    "title": "Plume",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "atlas-nav",
+    "title": "Atlas Nav",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nimbus-ai",
+    "title": "Nimbus AI",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "kairo-studio",
+    "title": "Kairo Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "jelly-garden",
+    "title": "Jelly Garden",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "stridr",
+    "title": "Stridr",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "camper-overnight",
+    "title": "Camper Overnight",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "octopus-mentality",
+    "title": "Octopus Mentality",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "logistics-freight",
+    "title": "Logistics Freight",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "pulse",
+    "title": "Pulse",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "draftwise",
+    "title": "Draftwise",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "atelier-unit",
+    "title": "Atelier Unit",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "fin-coin",
+    "title": "Fin Coin",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "atrium-mtl",
+    "title": "Atrium MTL",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "nouver",
+    "title": "Nouver",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "riverine",
+    "title": "Riverine",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "dream-garden",
+    "title": "Dream Garden",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "octaform",
+    "title": "OctaForm",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "vexela",
+    "title": "Vexel",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "ascii-studio",
+    "title": "ASCII Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "frame-futures",
+    "title": "Frame Futures",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "cosmo-forge",
+    "title": "Cosmo Forge",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "parallex",
+    "title": "Parallex",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "octo-studio",
+    "title": "Octo Studio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "design-world",
+    "title": "Design World",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "feathers-atlas",
+    "title": "Feathers Atlas",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "go-on-white",
+    "title": "Go On, White",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "inknomad",
+    "title": "Inknomad",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "specimen",
+    "title": "Specimen",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "moss-valley",
+    "title": "Moss Valley",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "michelle-3d-portfolio",
+    "title": "Michelle 3D portfolio",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "anveril",
+    "title": "Anveril",
+    "is_free": true,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "agehana",
+    "title": "Agehana",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "synapticforge",
+    "title": "SynapticForge",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "finsmith",
+    "title": "FinSmith",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "peculiar-atelier",
+    "title": "Peculiar Atelier",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "halcyonn",
+    "title": "Halcyonn",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  },
+  {
+    "source_id": "lost-little-explorer",
+    "title": "Lost Little Explorer",
+    "is_free": false,
+    "origin": "public-catalog-metadata",
+    "matched_atlas_ids": [],
+    "match_methods": [],
+    "checked_on": "2026-10-17"
+  }
+]

@@ -1,0 +1,11 @@
+.git/
+.vercel/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
+Thumbs.db
+.env
+.env.*

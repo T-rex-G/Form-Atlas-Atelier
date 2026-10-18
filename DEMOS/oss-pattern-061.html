@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv='Content-Security-Policy' content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none'"><title>Gradient Pattern 61</title><style>*{box-sizing:border-box}html,body,#root{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Inter,ui-sans-serif,Arial,sans-serif;background:#101317;color:#f4f0e9}.stage{min-height:100%;display:grid;place-content:center;padding:38px}.stack{display:flex;flex-direction:column;align-items:center;gap:22px}.sub{font-size:11px;color:#b9b1a3;letter-spacing:.12em;text-transform:uppercase}.display{font-size:54px;line-height:1.1;letter-spacing:-2px;font-weight:500}.pill{background:#e6cfa4;color:#1a1711;border:0;border-radius:99px;padding:14px 26px;font-size:14px;cursor:pointer}.panel{position:relative;isolation:isolate;width:320px;max-width:75vw;padding:30px;border:1px solid #45413a;border-radius:18px;background:#171b20}.demo-title{position:absolute;left:26px;top:22px;font-size:11px;color:#b7b1a6;letter-spacing:.1em;text-transform:uppercase}.demo-hint{position:absolute;bottom:20px;right:24px;font-size:10px;color:#9b978e}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid #d6bc8d;outline-offset:4px}.lines{line-height:1.8;font-size:35px;letter-spacing:-1px}.small-text{font-size:14px;line-height:1.7;color:#b8b2a9}.accent{color:#e6cfa4}@media(max-width:450px){.display{font-size:40px}.stage{padding:25px}.panel{width:270px;padding:22px}}
+html {
+  --s: 34px; /* control the size (the circle diameter) */
+  --c1: #ECBE13;
+  --c2: #309292;
+  
+  --_g: radial-gradient(calc(var(--s)/2),var(--c1) 97%,#0000);
+  background:
+    var(--_g),var(--_g) calc(2*var(--s)) calc(2*var(--s)),
+    repeating-conic-gradient(from 45deg,#0000 0 25%,var(--c2) 0 50%) calc(-.707*var(--s)) calc(-.707*var(--s)),
+    repeating-linear-gradient(135deg,var(--c1) calc(var(--s)/-2) calc(var(--s)/2),var(--c2) 0 calc(2.328*var(--s)));
+  background-size: calc(4*var(--s)) calc(4*var(--s));
+  /* 
+    0.707 = sqrt(2)/2
+    2.328 = 2*sqrt(2) - .5
+  */
+}
+html{height:100%}body{background:none}</style></head><body></body></html>

@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv='Content-Security-Policy' content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none'"><title>Gradient Pattern 103</title><style>*{box-sizing:border-box}html,body,#root{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Inter,ui-sans-serif,Arial,sans-serif;background:#101317;color:#f4f0e9}.stage{min-height:100%;display:grid;place-content:center;padding:38px}.stack{display:flex;flex-direction:column;align-items:center;gap:22px}.sub{font-size:11px;color:#b9b1a3;letter-spacing:.12em;text-transform:uppercase}.display{font-size:54px;line-height:1.1;letter-spacing:-2px;font-weight:500}.pill{background:#e6cfa4;color:#1a1711;border:0;border-radius:99px;padding:14px 26px;font-size:14px;cursor:pointer}.panel{position:relative;isolation:isolate;width:320px;max-width:75vw;padding:30px;border:1px solid #45413a;border-radius:18px;background:#171b20}.demo-title{position:absolute;left:26px;top:22px;font-size:11px;color:#b7b1a6;letter-spacing:.1em;text-transform:uppercase}.demo-hint{position:absolute;bottom:20px;right:24px;font-size:10px;color:#9b978e}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid #d6bc8d;outline-offset:4px}.lines{line-height:1.8;font-size:35px;letter-spacing:-1px}.small-text{font-size:14px;line-height:1.7;color:#b8b2a9}.accent{color:#e6cfa4}@media(max-width:450px){.display{font-size:40px}.stage{padding:25px}.panel{width:270px;padding:22px}}
+html {
+  --s: 50px; /* control the size */
+  
+  --c:calc(50%/3),#0000 75%,#5E412F 0; /* 1st color */
+  --g:conic-gradient(at 50% var(--c));
+  --l:conic-gradient(at var(--c));
+  background:
+    var(--g),
+    var(--g) calc(var(--s)/2) var(--s),
+    var(--g) var(--s) calc(2*var(--s)),
+    var(--l) calc(2*var(--s)) 0,
+    var(--l) 0 var(--s) #CCC68D; /* 2nd color */
+  background-size: calc(3*var(--s)) calc(3*var(--s));
+}
+html{height:100%}body{background:none}</style></head><body></body></html>

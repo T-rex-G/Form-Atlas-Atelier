@@ -1,0 +1,9 @@
+.git/
+.vercel/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.zip
+.env
+.env.*
