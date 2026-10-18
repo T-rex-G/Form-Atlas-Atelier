@@ -2939,7 +2939,7 @@
   "builder/base.css": "249afb164dabffec4b171f67766e6610f640c49d47355667d37d96984c181dfb",
   "builder/build.py": "df108a77990388020cff83ea12115e0a24761ba646fdea32a750ad6c1886fecf",
   "builder/clipboard.js": "e895bab710a42a29342e9ad76a7ff44b206accb46641b8df3accd34c34f619ff",
-  "builder/export_static.cjs": "92e2f754781cae83fccf88f8278f92b018e410297d0f13673be6e450cfeacaed",
+  "builder/export_static.cjs": "f731aeefec5d46f4c5cc330b84bfbb904af3b567b76925866c94ce66485f89c6",
   "builder/native_gallery.py": "29129cad7185e4a542f19863ffc1c13d5319f54d3e038f04926368bb89b934fc",
   "builder/template.html": "ae7d8977ffabb4dd4e6f03ff91433adb30d9457511c2009772f61786fee3aa13",
   "builder/ui.css": "20a08ebd2c558ec467534405462d30269c137f199678f371f1258648e25aa354",
