@@ -49,6 +49,18 @@ const server=http.createServer((req,res)=>{
  }
  const ready=page=>page.waitForFunction(()=>document.querySelectorAll('#cards .entry').length===24);
  const playing=(page,width)=>page.waitForFunction(w=>{const v=document.getElementById('featuredVideo');return !v.paused&&v.videoWidth===w&&v.duration===23&&v.loop&&v.muted;},width,{timeout:30000});
+ async function compactControl(page){
+  const preview=page.locator('.featured-preview'),control=page.locator('#featuredMotion');
+  assert.equal(await page.locator('#featuredStart').count(),0,'Do not render a central fallback overlay');
+  assert.equal(await preview.getByRole('button',{name:/^(Play|Pause|Retry) Bloom preview$/}).count(),1);
+  assert.equal((await control.textContent()).trim(),'','The corner control is icon-only');
+  const bounds=await control.boundingBox(),frame=await preview.boundingBox();
+  assert.deepEqual([bounds.width,bounds.height],[44,44],'Keep the full touch target without a wide label');
+  assert(frame.x+frame.width-bounds.x-bounds.width<=14&&frame.y+frame.height-bounds.y-bounds.height<=14,'Keep playback in the lower corner');
+  const disc=await control.evaluate(node=>{const s=getComputedStyle(node,'::before');return {width:parseFloat(s.width),height:parseFloat(s.height)};});
+  assert(disc.width<=34&&disc.height<=34,'The visible control must remain discreet');
+  assert.equal(await page.locator('#featuredVideo').evaluate(v=>v.controls),false,'Do not show native media controls over the hero');
+ }
  try{
   const browser=await chromium.launch({executablePath:chrome,headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});browsers.push(browser);
   const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'no-preference'});observe(page,'desktop');
@@ -57,7 +69,7 @@ const server=http.createServer((req,res)=>{
   assert.match(await page.title(),/Form Atlas/);assert.equal(await page.locator('#viewerNotice').count(),0);assert.equal(await page.locator('#filterAllCount').textContent(),'865');
   assert((await page.locator('#cards .tile-subline>span').allTextContents()).every(x=>x==='MotionSites AI'));assert.match(await page.locator('.maker-note').textContent(),/Made By\s*Trex/);
   assert(!requested.some(x=>/\/assets\/.*\.json/.test(x)),'Initial entry must not download full text or demos');
-  await playing(page,1920);await page.screenshot({path:path.join(out,'desktop.png')});
+  await playing(page,1920);await compactControl(page);await page.screenshot({path:path.join(out,'desktop.png')});
   checks.push('Desktop: direct library entry, no warning overlay, no eager content requests, 865 references, MotionSites first, Trex credit');
   await page.locator('#featuredMotion').click();assert(await page.locator('#featuredVideo').evaluate(v=>v.paused));
   await page.locator('#featuredMotion').click();await playing(page,1920);
@@ -89,7 +101,7 @@ const server=http.createServer((req,res)=>{
   assert(await page.locator('#featuredVideo').evaluate(v=>v.paused&&!v.getAttribute('src')));assert(await page.locator('#featuredImage').isVisible());
   checks.push('Reduced motion: visible high-resolution poster and zero automatic video requests');
   const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'no-preference'});observe(mobile,'mobile-chrome');
-  await mobile.goto(url,{waitUntil:'load'});await ready(mobile);await playing(mobile,1280);
+  await mobile.goto(url,{waitUntil:'load'});await ready(mobile);await playing(mobile,1280);await compactControl(mobile);
   assert(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));const bounds=await mobile.locator('.featured-preview').boundingBox();assert(Math.abs(bounds.width/bounds.height-16/9)<.02);
   await mobile.locator('#theme').click();await mobile.screenshot({path:path.join(out,'mobile-light.png')});
   await mobile.locator('#menu').click();assert(await mobile.locator('.maker-note').isVisible());await mobile.locator('#closeMenu').click();
@@ -157,17 +169,22 @@ const server=http.createServer((req,res)=>{
   async function policyCheck(engine,label){
    const p=await engine.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(p,label);
    await p.addInitScript(()=>{const native=HTMLMediaElement.prototype.play;window.atlasPlayAttempts=0;HTMLMediaElement.prototype.play=function(){if(this.id==='featuredVideo'&&++window.atlasPlayAttempts===1){this.autoplay=false;return Promise.reject(new DOMException('Simulated gesture requirement','NotAllowedError'));}return native.call(this);};});
-   await p.goto(url,{waitUntil:'load'});await ready(p);await p.locator('#featuredStart').waitFor({state:'visible'});
+   await p.goto(url,{waitUntil:'load'});await ready(p);await p.waitForFunction(()=>window.atlasPlayAttempts===1&&document.getElementById('featuredMotion').getAttribute('aria-label')==='Play Bloom preview');
+   await compactControl(p);
    assert.equal(await p.evaluate(()=>window.atlasPlayAttempts),1);
    await p.screenshot({path:path.join(out,label+'-tap-fallback.png')});
-   await p.locator('#featuredStart').click();await playing(p,1280);assert.equal(await p.evaluate(()=>window.atlasPlayAttempts),2);
-   await p.close();checks.push(label+': policy-denied autoplay has a visible one-tap fallback without retry spam');
+   await p.locator('#featuredMotion').click();await playing(p,1280);assert.equal(await p.evaluate(()=>window.atlasPlayAttempts),2);
+   await p.locator('#featuredMotion').press('Space');assert(await p.locator('#featuredVideo').evaluate(v=>v.paused));
+   assert.equal(await p.locator('#featuredMotion').getAttribute('aria-label'),'Play Bloom preview');
+   await p.locator('#featuredMotion').press('Enter');await playing(p,1280);
+   assert.equal(await p.locator('dialog[open]').count(),0,'Playback must not open the reference dialog');
+   await p.close();checks.push(label+': one compact corner control handles policy denial, tap, keyboard pause/resume; no centre overlay or retry spam');
   }
   await policyCheck(browser,'chrome');
   if(process.env.ATLAS_WEBKIT==='1'){
    const safari=await webkit.launch({headless:true});browsers.push(safari);
    const p=await safari.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'no-preference'});observe(p,'webkit-mobile');
-   await p.goto(url,{waitUntil:'load'});await ready(p);assert.equal(await p.locator('#viewerNotice').count(),0);await playing(p,1280);
+   await p.goto(url,{waitUntil:'load'});await ready(p);assert.equal(await p.locator('#viewerNotice').count(),0);await playing(p,1280);await compactControl(p);
    await p.locator('#featuredOpen').click();await p.locator('#promptContent').waitFor();assert.equal(await p.locator('#promptContent').textContent(),fs.readFileSync(path.join(root,bloom.prompt_file),'utf8'));
    await p.locator('#dclose').click();await p.locator('#theme').click();await p.screenshot({path:path.join(out,'webkit-mobile.png')});
    checks.push('WebKit mobile: direct entry, silent inline 720p autoplay, complete lazy prompt, theme and dialog lifecycle');

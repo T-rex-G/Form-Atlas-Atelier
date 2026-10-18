@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const helper=__dirname+'/featured_playback.js';
 function setup(play){
  assert(fs.existsSync(helper),'Featured playback needs cancellation-safe request handling');
- const video={hidden:true,paused:true,src:'',muted:false,playsInline:false,loop:false,pause(){this.paused=true;},play(){return play.call(this);}};
+ const video={hidden:true,paused:true,src:'',muted:false,playsInline:false,loop:false,autoplay:false,controls:true,pause(){this.paused=true;},play(){return play.call(this);}};
  let allowed=true;const phases=[];
  const player=require(helper).create({video,allowed:()=>allowed,source:()=>'/preview.mp4',onState:s=>phases.push(s.phase)});
  return {video,player,phases,allow:value=>{allowed=value;}};
@@ -11,6 +11,10 @@ function setup(play){
 test('autoplay makes the muted inline video visible before requesting playback',async()=>{
  const {video,player}=setup(function(){assert.equal(this.hidden,false);assert(this.muted&&this.playsInline&&this.loop);this.paused=false;return Promise.resolve();});
  await player.sync();assert.equal(video.src,'/preview.mp4');assert.equal(video.paused,false);
+});
+test('feature playback explicitly requests autoplay without native player controls',async()=>{
+ let flags;const {player}=setup(function(){flags={autoplay:this.autoplay,controls:this.controls};this.paused=false;return Promise.resolve();});
+ await player.sync();assert.deepEqual(flags,{autoplay:true,controls:false});
 });
 test('concurrent sync events share one play request',async()=>{
  let attempts=0,finish;const {player}=setup(function(){attempts++;return new Promise(resolve=>{finish=resolve;});});

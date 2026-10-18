@@ -140,9 +140,8 @@
  function mediaSource(x){return (matchMedia('(max-width:800px)').matches||navigator.connection?.saveData)?x.mobile_video||x.video:x.video;}
  function featuredControl(){
   const playing=!$('featuredVideo').paused||featuredPhase==='loading',b=$('featuredMotion');
-  b.replaceChildren(icon(playing?'pause':'play'),el('span',playing?'Pause':'Play'));b.setAttribute('aria-label',(playing?'Pause ':'Play ')+'Bloom preview');
-  const fallback=['blocked','error'].includes(featuredPhase);$('featuredStart').hidden=!fallback;
-  $('featuredStart').querySelector('span').textContent=featuredPhase==='error'?'Retry Bloom preview':'Tap to play Bloom';
+  const label=(playing?'Pause':featuredPhase==='error'?'Retry':'Play')+' Bloom preview';
+  b.replaceChildren(icon(playing?'pause':'play'));b.setAttribute('aria-label',label);b.title=label;b.setAttribute('aria-pressed',String(playing));
  }
  const featuredPlayback=FormFeatured.create({
   video:$('featuredVideo'),
@@ -155,7 +154,6 @@
  $('featuredVideo').onpause=()=>{if(!['blocked','error'].includes(featuredPhase))featuredPhase='paused';featuredControl();};
  $('featuredVideo').onerror=()=>{featuredPlayback.fail();$('featuredVideo').hidden=true;$('featuredImage').hidden=false;featuredControl();};
  function playFeature(){prefs.featureMotion=true;featuredUserPlay=true;persist('form-atlas-iv-prefs',prefs);syncFeatured({retry:true});}
- $('featuredStart').onclick=playFeature;
  $('featuredMotion').onclick=()=>{if(!$('featuredVideo').paused||featuredPhase==='loading'){prefs.featureMotion=false;featuredUserPlay=false;persist('form-atlas-iv-prefs',prefs);syncFeatured();}else playFeature();};
  const featuredObserver=new IntersectionObserver(entries=>{const next=entries[0].isIntersecting,retry=next&&!featuredVisible;featuredVisible=next;syncFeatured({retry});},{threshold:.1});featuredObserver.observe($('featuredReference'));
  const featuredViewObserver=new MutationObserver(()=>syncFeatured());featuredViewObserver.observe($('featuredReference'),{attributes:true,attributeFilter:['hidden']});featuredViewObserver.observe($('navigation'),{attributes:true,attributeFilter:['class']});

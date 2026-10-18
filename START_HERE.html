@@ -39,8 +39,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 @media(max-width:560px){.featured-preview{height:124px}.featured-copy{padding:14px 17px}.featured-copy h2{font-size:27px;margin:5px 0}.featured-copy p{margin-bottom:11px}.featured-copy .secondary{min-height:34px;padding:8px 11px}.featured-reference{margin-bottom:23px}.page-heading{margin-bottom:18px}.page-heading h1{font-size:37px}.page-heading p{font-size:12px}}
 /* Preserve Bloom's full native frame; never crop or simulate extra detail. */
 .maker-note{margin:18px 6px 0;font-size:10px;letter-spacing:.2px;color:var(--faint)}.maker-note span{color:var(--accent);font-weight:550}
-.featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:14px;bottom:14px;z-index:2;display:flex;align-items:center;gap:7px;min-height:36px;min-width:80px;padding:8px 11px;border:1px solid #ffffff38;border-radius:6px;background:#0c0e12df;backdrop-filter:blur(10px);color:#f2eee6;font-size:10px}.featured-motion svg{width:13px;height:13px}
-@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:16/9}.featured-copy{padding:18px}.featured-motion{right:10px;bottom:10px;min-height:36px}.maker-note{font-size:11px}}
+.featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:8px;bottom:8px;z-index:2;display:grid;place-items:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:0;border:0;border-radius:50%;background:transparent;color:#f2eee6;isolation:isolate}.featured-motion::before{content:"";position:absolute;inset:6px;border:1px solid #ffffff38;border-radius:50%;background:#0c0e12c9;backdrop-filter:blur(10px);z-index:-1}.featured-motion svg{width:13px;height:13px;pointer-events:none}.featured-motion:hover::before{background:#0c0e12ef;border-color:#ffffff60}.featured-motion:focus-visible{outline:2px solid #d6bc8d;outline-offset:1px}
+/* Safari must not layer a native start button over the custom hero control. */
+#featuredVideo{pointer-events:none}
+#featuredVideo::-webkit-media-controls{display:none!important}
+#featuredVideo::-webkit-media-controls-start-playback-button{display:none!important}
+@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:16/9}.featured-copy{padding:18px}.maker-note{font-size:11px}}
 @media(max-width:800px){.detail-media.live-active{aspect-ratio:auto;height:360px;max-height:none}}
 .access-evidence{margin-top:18px;padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .access-evidence strong{display:block;font-size:12px;font-weight:600;line-height:1.5}
@@ -49,8 +53,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 .content-loading{min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:28px;color:var(--sub);text-align:center;font-size:13px;line-height:1.7}
 .content-loading[aria-busy=true]::before{content:'';width:23px;height:23px;border:1px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:atlas-loading 1s linear infinite}
 .search-status{display:flex;align-items:center;gap:16px;margin:0 0 20px;color:var(--sub);font-size:12px;line-height:1.7}
-.featured-start{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;display:flex;align-items:center;gap:11px;min-height:48px;max-width:85%;padding:13px 18px;border:1px solid #c7b59180;border-radius:10px;background:#111110dd;backdrop-filter:blur(14px);color:#f1eadc;font-size:12px;white-space:nowrap;box-shadow:0 12px 40px #0005}
-.featured-start svg{width:17px;height:17px}
 @keyframes atlas-loading{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.content-loading[aria-busy=true]::before{animation:none}}
 </style></head>
@@ -81,7 +83,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
  </header>
  <main id="main">
   <section class="page-heading"><div><h1 id="libraryTitle">Good ideas deserve a good home.</h1><p id="viewDescription">Explore your references, study the details, and build something exceptional.</p></div><span class="reference-total" id="count"></span></section>
-  <section id="featuredReference" class="featured-reference" aria-label="Selected reference" data-reference-id="57"><div class="featured-copy"><span>Selected reference</span><h2>Bloom</h2><p>Organic motion. Delicate detail. A design in bloom.</p><div><button id="featuredOpen" class="secondary">Open reference <i data-icon="right"></i></button><button id="featuredCopy" class="text-button"><i data-icon="copy"></i>Copy prompt</button></div></div><div class="featured-preview"><button id="featuredPreview" class="featured-open" aria-label="Open Bloom"><img id="featuredImage" src="FULL_IMAGES/bloom-continuous.webp" fetchpriority="high" decoding="async" alt="Bloom reference"><video id="featuredVideo" data-src="VIDEO/bloom-continuous-1080p.mp4" data-src-mobile="VIDEO/bloom-continuous-720p.mp4" poster="FULL_IMAGES/bloom-continuous.webp" autoplay muted loop playsinline webkit-playsinline preload="none" aria-hidden="true" hidden></video></button><button id="featuredStart" class="featured-start" hidden aria-label="Play Bloom preview"><i data-icon="play"></i><span>Tap to play Bloom</span></button><button id="featuredMotion" class="featured-motion" aria-label="Pause Bloom preview"><i data-icon="pause"></i><span>Pause</span></button></div></section>
+  <section id="featuredReference" class="featured-reference" aria-label="Selected reference" data-reference-id="57"><div class="featured-copy"><span>Selected reference</span><h2>Bloom</h2><p>Organic motion. Delicate detail. A design in bloom.</p><div><button id="featuredOpen" class="secondary">Open reference <i data-icon="right"></i></button><button id="featuredCopy" class="text-button"><i data-icon="copy"></i>Copy prompt</button></div></div><div class="featured-preview"><button id="featuredPreview" class="featured-open" aria-label="Open Bloom"><img id="featuredImage" src="FULL_IMAGES/bloom-continuous.webp" fetchpriority="high" decoding="async" alt="Bloom reference"><video id="featuredVideo" data-src="VIDEO/bloom-continuous-1080p.mp4" data-src-mobile="VIDEO/bloom-continuous-720p.mp4" poster="FULL_IMAGES/bloom-continuous.webp" autoplay muted loop playsinline webkit-playsinline preload="none" aria-hidden="true" hidden></video></button><button id="featuredMotion" class="featured-motion" aria-label="Play Bloom preview" title="Play Bloom preview" aria-pressed="false"><i data-icon="play"></i></button></div></section>
   <section class="library" id="library" aria-label="Reference collection">
    <div id="collectionHeading" class="collection-heading"><h2>The collection</h2><span id="collectionSummary"></span></div>
    <div class="library-toolbar"><div class="media-tabs" role="group" aria-label="Media filter"><button class="active" data-media="all">All <span id="filterAllCount"></span></button><button data-media="video">Video <span id="filterVideoCount"></span></button><button data-media="still">Images <span id="filterStillCount"></span></button><button data-media="code">Live code <span id="filterCodeCount"></span></button></div><div class="filter-controls"><label class="select-control provider-control"><select id="provider" aria-label="Filter by source"><option value="">All sources</option></select><i data-icon="chevronDown"></i></label><label class="select-control"><i data-icon="filter"></i><select id="technology" aria-label="Filter by technology"><option value="">All technologies</option></select></label><label class="select-control sort-control"><select id="sort" aria-label="Sort references"><option value="curated">Curated</option><option value="az">Name A–Z</option><option value="detailed">Longest prompts</option></select><i data-icon="chevronDown"></i></label><div class="view-control" aria-label="Card size"><button data-layout="comfortable" class="active" aria-label="Large previews" aria-pressed="true"><i data-icon="wide"></i></button><button data-layout="compact" aria-label="Compact previews" aria-pressed="false"><i data-icon="grid"></i></button></div></div></div>
@@ -231,7 +233,7 @@ window.FormClipboard = (() => {
    if(!video.paused){publish('playing');return Promise.resolve();}
    if(pending)return pending;
    const id=++generation;
-   video.muted=true;video.defaultMuted=true;video.playsInline=true;video.loop=true;
+   video.muted=true;video.defaultMuted=true;video.playsInline=true;video.loop=true;video.autoplay=true;video.controls=false;
    // iOS must see a visible, silent inline element when play is requested.
    video.hidden=false;
    if(!video.getAttribute?.('src')&&!video.src)video.src=source();
@@ -398,9 +400,8 @@ window.FormClipboard = (() => {
  function mediaSource(x){return (matchMedia('(max-width:800px)').matches||navigator.connection?.saveData)?x.mobile_video||x.video:x.video;}
  function featuredControl(){
   const playing=!$('featuredVideo').paused||featuredPhase==='loading',b=$('featuredMotion');
-  b.replaceChildren(icon(playing?'pause':'play'),el('span',playing?'Pause':'Play'));b.setAttribute('aria-label',(playing?'Pause ':'Play ')+'Bloom preview');
-  const fallback=['blocked','error'].includes(featuredPhase);$('featuredStart').hidden=!fallback;
-  $('featuredStart').querySelector('span').textContent=featuredPhase==='error'?'Retry Bloom preview':'Tap to play Bloom';
+  const label=(playing?'Pause':featuredPhase==='error'?'Retry':'Play')+' Bloom preview';
+  b.replaceChildren(icon(playing?'pause':'play'));b.setAttribute('aria-label',label);b.title=label;b.setAttribute('aria-pressed',String(playing));
  }
  const featuredPlayback=FormFeatured.create({
   video:$('featuredVideo'),
@@ -413,7 +414,6 @@ window.FormClipboard = (() => {
  $('featuredVideo').onpause=()=>{if(!['blocked','error'].includes(featuredPhase))featuredPhase='paused';featuredControl();};
  $('featuredVideo').onerror=()=>{featuredPlayback.fail();$('featuredVideo').hidden=true;$('featuredImage').hidden=false;featuredControl();};
  function playFeature(){prefs.featureMotion=true;featuredUserPlay=true;persist('form-atlas-iv-prefs',prefs);syncFeatured({retry:true});}
- $('featuredStart').onclick=playFeature;
  $('featuredMotion').onclick=()=>{if(!$('featuredVideo').paused||featuredPhase==='loading'){prefs.featureMotion=false;featuredUserPlay=false;persist('form-atlas-iv-prefs',prefs);syncFeatured();}else playFeature();};
  const featuredObserver=new IntersectionObserver(entries=>{const next=entries[0].isIntersecting,retry=next&&!featuredVisible;featuredVisible=next;syncFeatured({retry});},{threshold:.1});featuredObserver.observe($('featuredReference'));
  const featuredViewObserver=new MutationObserver(()=>syncFeatured());featuredViewObserver.observe($('featuredReference'),{attributes:true,attributeFilter:['hidden']});featuredViewObserver.observe($('navigation'),{attributes:true,attributeFilter:['class']});

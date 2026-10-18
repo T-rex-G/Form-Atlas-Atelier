@@ -14,7 +14,7 @@
    if(!video.paused){publish('playing');return Promise.resolve();}
    if(pending)return pending;
    const id=++generation;
-   video.muted=true;video.defaultMuted=true;video.playsInline=true;video.loop=true;
+   video.muted=true;video.defaultMuted=true;video.playsInline=true;video.loop=true;video.autoplay=true;video.controls=false;
    // iOS must see a visible, silent inline element when play is requested.
    video.hidden=false;
    if(!video.getAttribute?.('src')&&!video.src)video.src=source();

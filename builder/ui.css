@@ -13,8 +13,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 @media(max-width:560px){.featured-preview{height:124px}.featured-copy{padding:14px 17px}.featured-copy h2{font-size:27px;margin:5px 0}.featured-copy p{margin-bottom:11px}.featured-copy .secondary{min-height:34px;padding:8px 11px}.featured-reference{margin-bottom:23px}.page-heading{margin-bottom:18px}.page-heading h1{font-size:37px}.page-heading p{font-size:12px}}
 /* Preserve Bloom's full native frame; never crop or simulate extra detail. */
 .maker-note{margin:18px 6px 0;font-size:10px;letter-spacing:.2px;color:var(--faint)}.maker-note span{color:var(--accent);font-weight:550}
-.featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:14px;bottom:14px;z-index:2;display:flex;align-items:center;gap:7px;min-height:36px;min-width:80px;padding:8px 11px;border:1px solid #ffffff38;border-radius:6px;background:#0c0e12df;backdrop-filter:blur(10px);color:#f2eee6;font-size:10px}.featured-motion svg{width:13px;height:13px}
-@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:16/9}.featured-copy{padding:18px}.featured-motion{right:10px;bottom:10px;min-height:36px}.maker-note{font-size:11px}}
+.featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:8px;bottom:8px;z-index:2;display:grid;place-items:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:0;border:0;border-radius:50%;background:transparent;color:#f2eee6;isolation:isolate}.featured-motion::before{content:"";position:absolute;inset:6px;border:1px solid #ffffff38;border-radius:50%;background:#0c0e12c9;backdrop-filter:blur(10px);z-index:-1}.featured-motion svg{width:13px;height:13px;pointer-events:none}.featured-motion:hover::before{background:#0c0e12ef;border-color:#ffffff60}.featured-motion:focus-visible{outline:2px solid #d6bc8d;outline-offset:1px}
+/* Safari must not layer a native start button over the custom hero control. */
+#featuredVideo{pointer-events:none}
+#featuredVideo::-webkit-media-controls{display:none!important}
+#featuredVideo::-webkit-media-controls-start-playback-button{display:none!important}
+@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:16/9}.featured-copy{padding:18px}.maker-note{font-size:11px}}
 @media(max-width:800px){.detail-media.live-active{aspect-ratio:auto;height:360px;max-height:none}}
 .access-evidence{margin-top:18px;padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .access-evidence strong{display:block;font-size:12px;font-weight:600;line-height:1.5}
@@ -23,7 +27,5 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 .content-loading{min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:28px;color:var(--sub);text-align:center;font-size:13px;line-height:1.7}
 .content-loading[aria-busy=true]::before{content:'';width:23px;height:23px;border:1px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:atlas-loading 1s linear infinite}
 .search-status{display:flex;align-items:center;gap:16px;margin:0 0 20px;color:var(--sub);font-size:12px;line-height:1.7}
-.featured-start{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;display:flex;align-items:center;gap:11px;min-height:48px;max-width:85%;padding:13px 18px;border:1px solid #c7b59180;border-radius:10px;background:#111110dd;backdrop-filter:blur(14px);color:#f1eadc;font-size:12px;white-space:nowrap;box-shadow:0 12px 40px #0005}
-.featured-start svg{width:17px;height:17px}
 @keyframes atlas-loading{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.content-loading[aria-busy=true]::before{animation:none}}

@@ -24,7 +24,7 @@ Commit the source, generated HTML/catalogs, and checksum manifest together. `dis
 
 The hosted entry is optimized separately: it contains catalog metadata, with complete prompts, source code and demonstrations fetched only when opened. Full-prompt search is loaded on the first search. The standalone `START_HERE.html` still embeds all complete content for offline use. Content-hashed hosted reference files are immutable; entry pages revalidate, and media can be reused from the browser cache.
 
-Bloom uses continuous 24 fps motion from the original footage, with a lighter 720p mobile rendition and 1080p desktop rendition. Muted inline autoplay is attempted only while the feature is visible. Browser restrictions receive a clear tap-to-play fallback; reduced motion and explicit pause choices are respected.
+Bloom uses continuous 24 fps motion from the original footage, with a lighter 720p mobile rendition and 1080p desktop rendition. Muted inline autoplay is attempted only while the feature is visible. One compact corner play/pause control also handles browser restrictions and retries, without a central overlay or native player controls. Reduced motion and explicit pause choices are respected.
 
 Regression checks after exporting:
 
