@@ -37,6 +37,13 @@ test('policy denial is handled without a retry loop and remains manually playabl
  await player.sync();assert.equal(phases.at(-1),'blocked');await player.sync();assert.equal(attempts,1);
  await player.sync({retry:true});assert.equal(attempts,2);assert.equal(phases.at(-1),'playing');
 });
+test('a mid-playback failure pauses the element so the single control can retry',async()=>{
+ let attempts=0;const {player,video,phases}=setup(function(){attempts++;this.paused=false;return Promise.resolve();});
+ await player.sync();assert.equal(video.paused,false);player.fail();
+ assert.equal(video.paused,true,'A failed playing element must not leave the control in its Pause state');
+ assert.equal(phases.at(-1),'error');await player.sync();assert.equal(attempts,1);
+ await player.sync({retry:true});assert.equal(attempts,2);assert.equal(video.paused,false);assert.equal(phases.at(-1),'playing');
+});
 test('hidden and reduced-motion states do not fetch a video',async()=>{
  const {player,video,allow}=setup(()=>{throw Error('Must not play');});allow(false);await player.sync();assert.equal(video.src,'');assert.equal(video.paused,true);
 });

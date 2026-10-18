@@ -181,6 +181,24 @@ const server=http.createServer((req,res)=>{
    await p.close();checks.push(label+': one compact corner control handles policy denial, tap, keyboard pause/resume; no centre overlay or retry spam');
   }
   await policyCheck(browser,'chrome');
+  async function midstreamErrorCheck(engine,label){
+   const p=await engine.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(p,label+'-midstream-error');
+   try{
+    await p.goto(url,{waitUntil:'load'});await ready(p);await playing(p,1280);
+    // Inject the media-element error event while paused is still false: this
+    // reproduces a fatal media boundary without depending on network timing.
+    await p.locator('#featuredVideo').evaluate(v=>v.dispatchEvent(new Event('error')));
+    assert.equal(await p.locator('#featuredMotion').getAttribute('aria-label'),'Retry Bloom preview');
+    assert.equal(await p.locator('#featuredMotion').getAttribute('aria-pressed'),'false');
+    assert(await p.locator('#featuredVideo').evaluate(v=>v.paused&&v.hidden));
+    assert(await p.locator('#featuredImage').isVisible());await compactControl(p);
+    await p.locator('#featuredMotion').click();await playing(p,1280);
+    assert.equal(await p.locator('#featuredMotion').getAttribute('aria-label'),'Pause Bloom preview');
+    await p.locator('#featuredImage').waitFor({state:'hidden'});
+   }finally{await p.close();}
+   checks.push(label+': a mid-playback error leaves one Retry control and one click resumes the video');
+  }
+  await midstreamErrorCheck(browser,'chrome');
   if(process.env.ATLAS_WEBKIT==='1'){
    const safari=await webkit.launch({headless:true});browsers.push(safari);
    const p=await safari.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'no-preference'});observe(p,'webkit-mobile');
@@ -191,6 +209,7 @@ const server=http.createServer((req,res)=>{
    await delayedNotes(safari,'webkit');
    await deferredCopy(safari,'webkit');
    await policyCheck(safari,'webkit');
+   await midstreamErrorCheck(safari,'webkit');
   }
   const limited=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(limited,'throttled-mobile');
   const cdp=await limited.context().newCDPSession(limited);await cdp.send('Network.enable');

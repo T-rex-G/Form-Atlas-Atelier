@@ -33,7 +33,7 @@
    });
    pending=work;return work;
   }
-  function fail(){generation++;failed=true;publish('error');}
+  function fail(){generation++;failed=true;video.pause();publish('error');}
   return {sync,fail,get phase(){return phase;}};
  }
  return {create};
