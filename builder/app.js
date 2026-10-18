@@ -98,7 +98,14 @@
   if(typeof x.prompt==='string')return;
   contentErrors.delete(x);if(state.current===x)tabRender();
   try{await content.load(x);}catch(e){contentErrors.set(x,e.message);}
-  if(state.current===x&&$('detail').open){tabRender();if(contentErrors.has(x))feedback('Prompt unavailable. Use Retry to load it.','attention');}
+  if(state.current===x&&$('detail').open){
+   if(state.tab==='notes'){
+    $('copy').disabled=$('save').disabled=typeof x.prompt!=='string';
+    $('chars').textContent=promptLength(x).toLocaleString()+' characters';
+    if(!contentErrors.has(x))feedback('Ready to use in your AI editor');
+   }else tabRender();
+   if(contentErrors.has(x))feedback('Prompt unavailable. Use Retry to load it.','attention');
+  }
  }
  function openReference(x,playNow=false,navigating=false){if(!navigating){state.returnFocus=document.activeElement;state.sequence=state.results.length?[...state.results]:[x];if(!state.sequence.some(y=>y.id===x.id))state.sequence=[x];}stopMedia();state.current=x;state.tab='prompt';$('referenceMetadata').open=matchMedia('(min-width:801px)').matches;resetCopy();$('dtitle').textContent=nameOf(x);$('dlab').textContent=(collectionNames[x.collection]||x.category)+' / Reference '+x.id;$('dstill').src=x.visual;$('dstill').hidden=false;$('dvideo').hidden=true;$('playerActions').hidden=!x.video&&!x.demo_file;$('livePreview').hidden=!x.demo_file;$('dplay').hidden=!x.video;$('dreset').hidden=!x.video;$('downloadVideo').hidden=!x.video;$('codeTab').hidden=!x.code_file;$('daccess').textContent=x.personal?'Personal':x.access==='free'?(x.license==='MIT'?'Free · MIT licensed':'Free at source'):x.access==='premium'?'Premium source':'Unverified';$('dprovider').textContent=x.provider||sourceOf(x);$('dplayOverlay').hidden=!x.video;$('dplay').disabled=!x.video;$('dplay').replaceChildren(icon('play'),document.createTextNode('Play preview'));$('previewKind').textContent=x.code_file?'Live code · MIT':x.video?(x.media_role==='background'?'Source footage':'Video preview'):'Image reference';$('dtype').textContent=collectionNames[x.collection]||x.category;$('dorigin').textContent=x.demo_file?'Local code demonstration':x.video?(x.media_role==='background'?'Source footage':'Source preview'):x.visual_type==='study-reconstruction'?'Independent visual study':x.personal?'Personal image':'Saved reference';$('dtech').replaceChildren(...(x.tags?.length?x.tags:['No technology tags']).map(t=>el('span',t)));$('chars').textContent=promptLength(x).toLocaleString()+' characters';$('dfav').classList.toggle('saved',favs.has(x.id));$('dfav').setAttribute('aria-pressed',String(favs.has(x.id)));$('dstatus').textContent=x.demo_file?'A local demonstration of the included source code. Open Live preview to interact. The video, when included, is a recording of this demonstration.':x.video?(x.media_role==='background'?'A source media clip for this design. It may show background footage rather than the complete interface.':'A saved preview from the source collection. Press Play to watch it offline.'):x.visual_type==='study-reconstruction'?'An independent visual study. No source video is included.':x.media_status==='shared-fallback'?'The source used a generic clip for unrelated designs. This reference is kept as a still image.':x.media_status==='unavailable'?'The source video was unavailable. The saved reference image is included.':'A saved image reference. No matching video is included.';
   configurePreviewDetails(x);
@@ -176,10 +183,12 @@
  const activeCopy=()=>state.tab==='code'?{...state.current,prompt:state.current.code,copyLabel:'Code'}:state.current;$('selectPrompt').onclick=()=>state.current&&showManualCopy(activeCopy(),false);$('selectManualCopy').onclick=()=>FormClipboard.selectAll($('manualCopyText'));$('closeManualCopy').onclick=()=>{$('manualCopyPanel').hidden=true;feedback('Ready to use in your AI editor');$('copy').focus({preventScroll:true});};
  async function copyPrompt(x,button=$('copy')){
   if(!x)return;const token=++state.copyToken;const inside=$('detail').open&&state.current?.id===x.id;button.disabled=true;if(inside)feedback(x.copyLabel?'Copying code…':'Copying prompt…');
-  try{await content.load(x);}catch(e){button.disabled=false;if(inside)feedback(e.message,'attention');else toast(e.message);return;}
-  if(token!==state.copyToken){button.disabled=false;return;}
-  const result=await FormClipboard.copy(x.prompt,inside?$('detail'):document.body);
-  button.disabled=false;if(token!==state.copyToken)return;
+  const host=inside?$('detail'):document.body;let result;
+  try{
+   const operation=typeof x.prompt==='string'?FormClipboard.copy(x.prompt,host):FormClipboard.copyDeferred(content.load(x).then(()=>{if(token!==state.copyToken)throw Error('Copy cancelled');return x.prompt;}),host);
+   result=await operation;
+  }catch(e){if(token!==state.copyToken){if(button.id!=='copy')button.disabled=false;return;}button.disabled=false;if(inside)feedback(e.message,'attention');else toast(e.message);return;}
+  if(token!==state.copyToken){if(button.id!=='copy')button.disabled=false;return;}button.disabled=false;
   if(result.ok){button.replaceChildren(icon('check'),...(['copy','featuredCopy'].includes(button.id)?[el('span','Copied')]:[]));if(inside)feedback('Text copied. Paste it into your editor.','success');else toast('Prompt copied');setTimeout(()=>{if(!button.isConnected)return;if(button.id==='copy'&&state.current?.id!==x.id)return;button.replaceChildren(icon('copy'),...(['copy','featuredCopy'].includes(button.id)?[el('span',button.id==='copy'&&state.tab==='code'?'Copy code':'Copy prompt')]:[]));},2000);}
   else showManualCopy(x);
  }

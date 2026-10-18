@@ -41,5 +41,28 @@ window.FormClipboard = (() => {
     } catch {return {ok:false,method:'blocked'};}
     finally {clearTimeout(timer);}
   }
-  return {copy,selectAll};
+  async function copyDeferred(textPromise,host=document.body) {
+    const text=Promise.resolve(textPromise).then(value=>{
+      if(typeof value!=='string'||!value.length)throw Error('The complete prompt could not be loaded.');
+      return value;
+    });
+    // Start permission-sensitive writing while the original click is still active.
+    // WebKit accepts a Promise<Blob>, so fetching content need not lose the gesture.
+    let writing=null;
+    if(navigator.clipboard?.write&&typeof ClipboardItem==='function'){
+      const blob=text.then(value=>new Blob([value],{type:'text/plain'}));
+      blob.catch(()=>{});
+      try{writing=Promise.resolve(navigator.clipboard.write([new ClipboardItem({'text/plain':blob})])).then(()=>true,()=>false);}catch{}
+    }
+    const value=await text;
+    if(writing){
+      let timer;
+      try{
+        const ok=await Promise.race([writing,new Promise(resolve=>{timer=setTimeout(()=>resolve(false),1500);})]);
+        if(ok)return {ok:true,method:'deferred-clipboard'};
+      }finally{clearTimeout(timer);}
+    }
+    return copy(value,host);
+  }
+  return {copy,copyDeferred,selectAll};
 })();

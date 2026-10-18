@@ -101,6 +101,59 @@ const server=http.createServer((req,res)=>{
   await retry.goto(url,{waitUntil:'load'});await ready(retry);await retry.locator('#featuredOpen').click();await retry.getByRole('button',{name:'Retry loading',exact:true}).waitFor();
   assert(await retry.locator('#copy').isDisabled());await retry.getByRole('button',{name:'Retry loading',exact:true}).click();await retry.locator('#promptContent').waitFor();assert.equal(await retry.locator('#promptContent').textContent(),fs.readFileSync(path.join(root,bloom.prompt_file),'utf8'));
   checks.push('Interrupted reference fetch: readable error, disabled empty-copy action, successful exact-content retry');
+  async function delayedNotes(engine,label){
+   for(const status of [200,503]){
+    const p=await engine.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(p,label+'-notes-'+status,status===503);
+    let release;const held=new Promise(resolve=>{release=resolve;});
+    await p.route('**/references/57.json',async route=>{await held;if(status===503)return route.fulfill({status:503,contentType:'application/json',body:'{}'});return route.continue();});
+    try{
+     await p.goto(url,{waitUntil:'load'});await ready(p);await p.locator('#featuredOpen').click();await p.getByRole('button',{name:'My notes',exact:true}).click();
+     const field=p.getByRole('textbox',{name:'Private notes',exact:true}),draft='Keep this delicate lighting and organic detail.';
+     await field.fill(draft);await field.evaluate(node=>{node.dataset.qaIdentity='original-editor';node.focus();node.setSelectionRange(5,14);});
+     release();
+     if(status===200)await p.waitForFunction(()=>!document.getElementById('copy').disabled);
+     else await p.waitForFunction(()=>document.getElementById('copyStatus').textContent.includes('Prompt unavailable'));
+     assert.equal(await field.getAttribute('data-qa-identity'),'original-editor','A fetch completion must not replace the Notes textarea');
+     const state=await field.evaluate(node=>({focused:document.activeElement===node,start:node.selectionStart,end:node.selectionEnd,value:node.value,saved:JSON.parse(localStorage.getItem('form-iii-notes'))['57']}));
+     assert.deepEqual(state,{focused:true,start:5,end:14,value:draft,saved:draft});
+    }finally{release();await p.close();}
+   }
+   checks.push(label+': slow successful and failed fetches preserve Notes editor identity, focus, caret and saved draft');
+  }
+  await delayedNotes(browser,'chrome');
+  async function deferredCopy(engine,label){
+   for(const denied of [false,true]){
+    const p=await engine.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(p,label+'-deferred-copy');
+    // Model the clipboard's gesture-sensitive boundary, not a real user's clipboard.
+    await p.addInitScript(deny=>{
+     let gesture=false;window.atlasDeferredWrites=0;window.atlasSyncCopies=0;window.atlasCopiedText='';
+     // Browser events may checkpoint microtasks between listeners. Keep this
+     // test boundary active through the complete click task, not one listener.
+     document.addEventListener('click',()=>{gesture=true;setTimeout(()=>{gesture=false;},0);},true);
+     document.execCommand=()=>false;
+     Object.defineProperty(navigator,'clipboard',{configurable:true,value:{
+      write(items){window.atlasDeferredWrites++;if(deny||!gesture)return Promise.reject(new DOMException('Gesture required','NotAllowedError'));return items[0].getType('text/plain').then(blob=>blob.text()).then(text=>{window.atlasCopiedText=text;});},
+      writeText(text){window.atlasSyncCopies++;if(deny||!gesture)return Promise.reject(new DOMException('Gesture required','NotAllowedError'));window.atlasCopiedText=text;return Promise.resolve();}
+     }});
+    },denied);
+    let release;const held=new Promise(resolve=>{release=resolve;});
+    await p.route('**/references/57.json',async route=>{await held;return route.continue();});
+    try{
+     await p.goto(url,{waitUntil:'load'});await ready(p);await p.locator('#featuredCopy').click();
+     assert.equal(await p.evaluate(()=>window.atlasDeferredWrites),1,'The clipboard request must begin before the delayed fetch finishes');
+     release();const expected=fs.readFileSync(path.join(root,bloom.prompt_file),'utf8');
+     if(denied){await p.locator('#manualCopyPanel').waitFor({state:'visible'});assert.equal(await p.locator('#manualCopyText').inputValue(),expected);}
+     else{await p.waitForFunction(text=>window.atlasCopiedText===text,expected);await p.locator('#featuredCopy').click();assert.equal(await p.evaluate(()=>window.atlasSyncCopies),1,'Cached copying must stay inside its original click');}
+    }finally{release();await p.close();}
+   }
+   checks.push(label+': delayed quick-copy retains the click gesture; cached copy stays synchronous; denied clipboard exposes exact manual text');
+  }
+  await deferredCopy(browser,'chrome');
+  const offline=await browser.newPage({viewport:{width:1280,height:900},reducedMotion:'reduce'});observe(offline,'offline-file');
+  const offlineRequests=[];offline.on('request',request=>{if(/^https?:/.test(request.url()))offlineRequests.push(request.url());});
+  await offline.goto('file://'+path.join(root,'START_HERE.html'),{waitUntil:'load'});await ready(offline);await offline.locator('#featuredOpen').click();
+  assert.equal(await offline.locator('#promptContent').textContent(),fs.readFileSync(path.join(root,bloom.prompt_file),'utf8'));assert.deepEqual(offlineRequests,[]);await offline.close();
+  checks.push('Standalone file entry opens complete offline prompts without HTTP requests');
   async function policyCheck(engine,label){
    const p=await engine.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(p,label);
    await p.addInitScript(()=>{const native=HTMLMediaElement.prototype.play;window.atlasPlayAttempts=0;HTMLMediaElement.prototype.play=function(){if(this.id==='featuredVideo'&&++window.atlasPlayAttempts===1){this.autoplay=false;return Promise.reject(new DOMException('Simulated gesture requirement','NotAllowedError'));}return native.call(this);};});
@@ -118,6 +171,8 @@ const server=http.createServer((req,res)=>{
    await p.locator('#featuredOpen').click();await p.locator('#promptContent').waitFor();assert.equal(await p.locator('#promptContent').textContent(),fs.readFileSync(path.join(root,bloom.prompt_file),'utf8'));
    await p.locator('#dclose').click();await p.locator('#theme').click();await p.screenshot({path:path.join(out,'webkit-mobile.png')});
    checks.push('WebKit mobile: direct entry, silent inline 720p autoplay, complete lazy prompt, theme and dialog lifecycle');
+   await delayedNotes(safari,'webkit');
+   await deferredCopy(safari,'webkit');
    await policyCheck(safari,'webkit');
   }
   const limited=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});observe(limited,'throttled-mobile');
