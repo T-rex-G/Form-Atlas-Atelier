@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build Form Atlas offline. Python 3 standard library; no network or package install."""
-import argparse,csv,hashlib,json,re,zipfile,os,tempfile
+import argparse,csv,hashlib,json,re,zipfile,os,tempfile,html
 from pathlib import Path
 from native_gallery import render_gallery
 R=Path(__file__).resolve().parent.parent
@@ -65,8 +65,12 @@ def render(items):
   if x.get('video') and not (R/path(x['video'])).is_file():raise ValueError('Missing video: '+x['video'])
   data.append(v)
  template=(R/'builder/template.html').read_text('utf8')
- selected=next((x for x in items if x['id']==485),items[0])
- template=template.replace('IMAGES/485.webp',selected['visual'])
+ feature=json.loads((R/'data/feature.json').read_text('utf8'))
+ selected=next(x for x in items if x['id']==feature['reference_id'])
+ for key in ('video','poster'):
+  if not (R/path(feature[key])).is_file():raise ValueError('Missing featured '+key)
+ values={'ID':str(selected['id']),'TITLE':selected.get('display_title') or selected['title'],'DESCRIPTION':feature['description'],'VIDEO':feature['video'],'POSTER':feature['poster']}
+ for key,value in values.items():template=template.replace('__FEATURED_'+key+'__',html.escape(value,quote=True))
  if not template.count('__CSS__')==template.count('__DATA__')==template.count('__JS__')==1:raise ValueError('Invalid template')
  template=template.replace('__CSS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['base.css','ui.css'])).replace('__DATA__',json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')).replace('__JS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['clipboard.js','app.js']))
  (R/'START_HERE.html').write_text(template,'utf8');(R/'CATALOG.json').write_text(json.dumps(items,indent=2,ensure_ascii=False))

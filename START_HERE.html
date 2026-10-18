@@ -35,6 +35,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 @media(max-width:360px){.filter-controls{grid-template-columns:minmax(0,1fr) 85px 59px}.filter-controls>.select-control:has(#technology){display:none}.page-heading h1{font-size:35px}.featured-copy h2{font-size:27px}.media-tabs button{font-size:10px;padding:9px 5px;gap:4px}.media-tabs button span{font-size:8px}.detail-tabs{gap:17px}.detail-navigation .iconbtn{width:27px}.detail-identity h2{font-size:20px}.prompt-actions #save{min-width:98px}.cards.compact .tile-subline>span{max-width:50%}.cards.compact .quick-copy{display:none}.cards.compact .access-label{font-size:7px}.collection-heading>span{font-size:8px}}
 @media(min-width:1051px){.nav-list button{font-size:13px;min-height:40px}.collection-list button{font-size:12px;min-height:32px}.nav-list button small{font-size:10px}.nav-list{margin-bottom:22px}.utility-button{font-size:12px}.page-heading h1{font-size:56px}.page-heading p{font-size:14px}.featured-copy h2{font-size:38px}.featured-copy p{font-size:13px}.featured-copy .secondary{font-size:12px}.featured-copy .text-button{font-size:11px}.title-button{font-size:14px}.tile-subline{font-size:11px}.media-tabs button{font-size:12px}.select-control select{font-size:11px}}
 @media(max-width:560px){.featured-preview{height:124px}.featured-copy{padding:14px 17px}.featured-copy h2{font-size:27px;margin:5px 0}.featured-copy p{margin-bottom:11px}.featured-copy .secondary{min-height:34px;padding:8px 11px}.featured-reference{margin-bottom:23px}.page-heading{margin-bottom:18px}.page-heading h1{font-size:37px}.page-heading p{font-size:12px}}
+/* Preserve Bloom's full native frame; never crop or simulate extra detail. */
+.maker-note{margin:18px 6px 0;font-size:10px;letter-spacing:.2px;color:var(--faint)}.maker-note span{color:var(--accent);font-weight:550}
+.featured-reference{height:clamp(280px,28vw,400px);grid-template-columns:32% 68%}.featured-open{display:block;position:absolute;inset:0;width:100%;height:100%;padding:0;background:#050607}.featured-open img,.featured-open video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.featured-preview:hover img{transform:none}.featured-motion{position:absolute;right:14px;bottom:14px;z-index:2;display:flex;align-items:center;gap:7px;min-height:36px;min-width:80px;padding:8px 11px;border:1px solid #ffffff38;border-radius:6px;background:#0c0e12df;backdrop-filter:blur(10px);color:#f2eee6;font-size:10px}.featured-motion svg{width:13px;height:13px}
+@media(max-width:560px){.featured-reference{height:auto}.featured-preview{height:auto;aspect-ratio:640/478}.featured-copy{padding:18px}.featured-motion{right:10px;bottom:10px;min-height:36px}.maker-note{font-size:11px}}
 @media(max-width:800px){.detail-media.live-active{aspect-ratio:auto;height:360px;max-height:none}}
 .access-evidence{margin-top:18px;padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .access-evidence strong{display:block;font-size:12px;font-weight:600;line-height:1.5}
@@ -58,7 +62,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
  </nav>
  <div class="nav-section-heading"><p class="nav-label">COLLECTIONS</p><span id="collectionTotal"></span></div>
  <nav id="collectionNav" class="nav-list collection-list" aria-label="Collections"></nav>
- <div class="sidebar-bottom"><button id="settings" class="utility-button"><i data-icon="settings"></i>Preferences</button><button id="backup" class="utility-button"><i data-icon="download"></i>Export my references</button><div class="offline-note"><span></span>Available offline</div></div>
+ <div class="sidebar-bottom"><button id="settings" class="utility-button"><i data-icon="settings"></i>Preferences</button><button id="backup" class="utility-button"><i data-icon="download"></i>Export my references</button><div class="maker-note">Made By <span>Trex</span></div></div>
 </aside>
 <div class="workspace" id="workspace">
  <header class="topbar">
@@ -68,7 +72,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
  </header>
  <main id="main">
   <section class="page-heading"><div><h1 id="libraryTitle">Good ideas deserve a good home.</h1><p id="viewDescription">Explore your references, study the details, and build something exceptional.</p></div><span class="reference-total" id="count"></span></section>
-  <section id="featuredReference" class="featured-reference" aria-label="Selected reference"><div class="featured-copy"><span>Selected reference</span><h2>Aurel Liquid Hero</h2><p>Light, water, and editorial typography.</p><div><button id="featuredOpen" class="secondary">Open reference <i data-icon="right"></i></button><button id="featuredCopy" class="text-button"><i data-icon="copy"></i>Copy prompt</button></div></div><button id="featuredPreview" class="featured-preview" aria-label="Open Aurel Liquid Hero"><img id="featuredImage" src="IMAGES/source-485.webp" alt="Aurel Liquid Hero reference"></button></section>
+  <section id="featuredReference" class="featured-reference" aria-label="Selected reference" data-reference-id="57"><div class="featured-copy"><span>Selected reference</span><h2>Bloom</h2><p>Organic motion. Delicate detail. A design in bloom.</p><div><button id="featuredOpen" class="secondary">Open reference <i data-icon="right"></i></button><button id="featuredCopy" class="text-button"><i data-icon="copy"></i>Copy prompt</button></div></div><div class="featured-preview"><button id="featuredPreview" class="featured-open" aria-label="Open Bloom"><img id="featuredImage" src="FULL_IMAGES/57.webp" alt="Bloom reference"><video id="featuredVideo" data-src="VIDEO/bloom-feature-full.mp4" poster="FULL_IMAGES/57.webp" muted loop playsinline webkit-playsinline preload="none" aria-hidden="true" hidden></video></button><button id="featuredMotion" class="featured-motion" aria-label="Pause Bloom preview"><i data-icon="pause"></i><span>Pause</span></button></div></section>
   <section class="library" id="library" aria-label="Reference collection">
    <div id="collectionHeading" class="collection-heading"><h2>The collection</h2><span id="collectionSummary"></span></div>
    <div class="library-toolbar"><div class="media-tabs" role="group" aria-label="Media filter"><button class="active" data-media="all">All <span id="filterAllCount"></span></button><button data-media="video">Video <span id="filterVideoCount"></span></button><button data-media="still">Images <span id="filterStillCount"></span></button><button data-media="code">Live code <span id="filterCodeCount"></span></button></div><div class="filter-controls"><label class="select-control provider-control"><select id="provider" aria-label="Filter by source"><option value="">All sources</option></select><i data-icon="chevronDown"></i></label><label class="select-control"><i data-icon="filter"></i><select id="technology" aria-label="Filter by technology"><option value="">All technologies</option></select></label><label class="select-control sort-control"><select id="sort" aria-label="Sort references"><option value="curated">Curated</option><option value="az">Name A–Z</option><option value="detailed">Longest prompts</option></select><i data-icon="chevronDown"></i></label><div class="view-control" aria-label="Card size"><button data-layout="comfortable" class="active" aria-label="Large previews" aria-pressed="true"><i data-icon="wide"></i></button><button data-layout="compact" aria-label="Compact previews" aria-pressed="false"><i data-icon="grid"></i></button></div></div></div>
@@ -168,8 +172,8 @@ window.FormClipboard = (() => {
  function toast(message){$('toast').querySelector('span').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),3500);}
  function lockPage(){if(pageLock!==null)return;pageLock=scrollY;Object.assign(document.body.style,{position:'fixed',top:-pageLock+'px',width:'100%',overflow:'hidden'});}
  function releasePage(){if(state.drawer||document.querySelector('dialog[open]')||pageLock===null)return;const y=pageLock;pageLock=null;Object.assign(document.body.style,{position:'',top:'',width:'',overflow:''});scrollTo({top:y,behavior:'instant'});}
- function show(id){if(state.drawer)drawer(false);lockPage();if(!$(id).open)$(id).showModal();}
- function hide(id){$(id).close();releasePage();}
+ function show(id){if(state.drawer)drawer(false);lockPage();if(!$(id).open)$(id).showModal();syncFeatured();}
+ function hide(id){$(id).close();releasePage();syncFeatured();}
  function viewportHeight(){document.documentElement.style.setProperty('--viewport-height',(window.visualViewport?.height||innerHeight)+'px');}
  viewportHeight();window.visualViewport?.addEventListener('resize',viewportHeight);window.addEventListener('resize',viewportHeight);
  function applyTheme(){const light=prefs.theme==='light'||prefs.theme==='system'&&matchMedia('(prefers-color-scheme: light)').matches;document.documentElement.dataset.theme=light?'light':'dark';$('theme').replaceChildren(icon(light?'moon':'sun'));document.querySelector('meta[name=theme-color]').content=light?'#f8f9fc':'#0e1014';persist('form-atlas-iv-prefs',prefs);}
@@ -240,7 +244,26 @@ window.FormClipboard = (() => {
  $('dclose').onclick=closeReference;$('detail').addEventListener('cancel',e=>{e.preventDefault();closeReference();});$('detail').onclick=e=>{if(e.target===$('detail'))closeReference();};$('previous').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('dfav').onclick=()=>state.current&&favorite(state.current.id);
  function startLive(){const x=state.current;if(!x?.demo_html)return;stopMedia();$('dstill').hidden=true;$('dplayOverlay').hidden=true;$('dlive').parentElement.classList.add('live-active');$('dlive').srcdoc=x.demo_html;$('dlive').hidden=false;}
  $('livePreview').onclick=startLive;
- const featured=()=>state.all.find(x=>x.id===485)||state.all[0];$('featuredOpen').onclick=()=>openReference(featured());$('featuredPreview').onclick=()=>openReference(featured(),true);$('featuredCopy').onclick=()=>copyPrompt(featured(),$('featuredCopy'));
+ const featured=()=>state.all.find(x=>String(x.id)===$('featuredReference').dataset.referenceId)||state.all[0];$('featuredOpen').onclick=()=>openReference(featured());$('featuredPreview').onclick=()=>openReference(featured(),true);$('featuredCopy').onclick=()=>copyPrompt(featured(),$('featuredCopy'));
+ $('previewMode').closest('label').querySelector('small').textContent='Applies to references you open. Bloom’s feature has its own play/pause control.';
+ // The single Discovery feature loops independently of manual library previews.
+ // Do not fetch or play it behind another view, dialog, hidden tab or off-screen.
+ let featuredVisible=true,featuredUserPlay=false,featuredBlocked=false;
+ function featuredControl(){const playing=!$('featuredVideo').paused;const b=$('featuredMotion');b.replaceChildren(icon(playing?'pause':'play'),el('span',playing?'Pause':'Play'));b.setAttribute('aria-label',(playing?'Pause ':'Play ')+'Bloom preview');}
+ function syncFeatured(){
+  const v=$('featuredVideo');
+  const allow=prefs.featureMotion!==false&&!featuredBlocked&&featuredVisible&&!document.hidden&&!$('featuredReference').hidden&&!state.drawer&&!document.querySelector('dialog[open]')&&!(prefs.respect&&reduced.matches&&!featuredUserPlay);
+  if(!allow){v.pause();featuredControl();return;}
+  if(!v.getAttribute('src'))v.src=v.dataset.src;
+  v.muted=true;v.playsInline=true;v.loop=true;
+  if(v.paused)v.play().catch(()=>{featuredBlocked=true;featuredControl();});
+ }
+ $('featuredVideo').onplaying=()=>{$('featuredVideo').hidden=false;$('featuredImage').hidden=true;featuredControl();};
+ $('featuredVideo').onpause=featuredControl;
+ $('featuredVideo').onerror=()=>{featuredBlocked=true;$('featuredVideo').hidden=true;$('featuredImage').hidden=false;featuredControl();};
+ $('featuredMotion').onclick=()=>{const v=$('featuredVideo');if(!v.paused){prefs.featureMotion=false;featuredUserPlay=false;}else{prefs.featureMotion=true;featuredUserPlay=true;featuredBlocked=false;}persist('form-atlas-iv-prefs',prefs);syncFeatured();};
+ const featuredObserver=new IntersectionObserver(entries=>{featuredVisible=entries[0].isIntersecting;syncFeatured();},{threshold:.1});featuredObserver.observe($('featuredReference'));
+ const featuredViewObserver=new MutationObserver(syncFeatured);featuredViewObserver.observe($('featuredReference'),{attributes:true,attributeFilter:['hidden']});featuredViewObserver.observe($('navigation'),{attributes:true,attributeFilter:['class']});
  $('dplay').onclick=()=>{$('dvideo').paused?playMedia():$('dvideo').pause();};$('dplayOverlay').onclick=playMedia;$('dreset').onclick=()=>{try{$('dvideo').currentTime=0;}catch{}playMedia();};
  $('dvideo').onplaying=()=>{$('dplay').replaceChildren(icon('pause'),document.createTextNode('Pause preview'));$('dplayOverlay').hidden=true;};$('dvideo').onpause=()=>{$('dplay').replaceChildren(icon('play'),document.createTextNode('Play preview'));};$('dvideo').onerror=()=>{if(state.current?.video){$('referenceMetadata').open=true;$('dstatus').textContent='This viewer could not play the video. Save the MP4 or open it from the VIDEO folder.';$('dvideo').hidden=true;$('dstill').hidden=false;$('dplayOverlay').hidden=false;}};
  function assetRow(title,path,description,href,type){const row=el('div');row.className='asset-row';const image=el('i');image.append(icon(type));const body=el('div');body.append(el('h3',title),el('small',description),el('code',path));if(href){const link=el('a','Open local file');link.className='text-button';link.href=href;link.target='_blank';link.rel='noopener';link.append(icon('arrowUp'));body.append(link);}row.append(image,body);return row;}
@@ -325,8 +348,8 @@ async function pack(records){if(records.length>500)throw Error('Export at most 5
   if(state.current&&!typing&&!event.ctrlKey&&!event.metaKey){if(event.key==='ArrowRight'){event.preventDefault();step(1);}if(event.key==='ArrowLeft'){event.preventDefault();step(-1);}}
  });
  document.addEventListener('play',event=>{if(event.target.tagName==='VIDEO')document.querySelectorAll('video').forEach(v=>{if(v!==event.target)v.pause();});},true);
- document.addEventListener('visibilitychange',()=>{if(document.hidden)$('dvideo').pause();});
- reduced.addEventListener('change',()=>{if(reduced.matches&&prefs.respect)$('dvideo').pause();});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)$('dvideo').pause();syncFeatured();});
+ reduced.addEventListener('change',()=>{if(reduced.matches&&prefs.respect)$('dvideo').pause();featuredUserPlay=false;syncFeatured();});
  applyTheme();initCollections();initTechnologies();render();$('viewerNotice').hidden=true;
  dbLoad().then(records=>{for(const record of records){if(!record||typeof record.id!=='string'||!record.image||typeof record.prompt!=='string'||state.all.some(x=>x.id===record.id))continue;state.mine.push(record);state.all.unshift(toEntry(record));}if(records.length){initCollections();initTechnologies();render();}}).catch(()=>{});
 })();
