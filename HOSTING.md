@@ -8,9 +8,11 @@ Keep the entire project together in your private `T-rex-G/Form-Atlas-Atelier` re
 2. Select the folder containing `vercel.json` as the project root. With the extracted contents at repository root, leave Root Directory empty.
 3. Use the included configuration: framework **Other**, build command `node builder/export_static.cjs`, output directory `dist`, no install command and no environment variables.
 4. Configure Vercel Authentication under Deployment Protection for every environment you intend to keep private, including production. A private GitHub repository does not make the deployed website private. Check access in a signed-out browser before sharing the URL.
-5. Deploy when ready. This configuration was exported and tested locally; an actual Vercel deployment has not been run.
+5. Deploy the verified commit. The hosted export writes an optimized `dist/index.html`; it does not use the large offline archive as the web entry.
 
 For updates, run `python3 builder/build.py` and `python3 builder/verify.py`, then commit the complete rebuilt project. The Vercel build checks the manifest before exporting, and fails with a clear rebuild instruction if tracked files changed after the HTML was generated.
+
+Run `node builder/export_static.cjs` followed by `node --test builder/test_*.cjs` before releasing. Keep complete prompts, code and demos in the standalone offline entry. Hosted reference bodies and full-text search are exported beneath content-hashed `assets/` paths and loaded on demand. HTML revalidates; hashed assets cache for one year, and unversioned source media cache for one day. New recording versions use new filenames, so an existing cached video cannot mask a replacement.
 
 Personal notes, bookmarks and additions stay in the browser. Hosting does not sync them between devices; export a personal backup to move them. No authentication system, database or cloud synchronization is embedded in the static app.
 

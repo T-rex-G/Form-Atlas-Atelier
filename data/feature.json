@@ -1,8 +1,8 @@
 {
   "reference_id": 57,
   "description": "Organic motion. Delicate detail. A design in bloom.",
-  "video": "VIDEO/bloom-code-render-1080p.mp4",
-  "poster": "FULL_IMAGES/bloom-code-render.webp",
+  "video": "VIDEO/bloom-continuous-1080p.mp4",
+  "poster": "FULL_IMAGES/bloom-continuous.webp",
   "source": {
     "kind": "local-code-render",
     "provider": "MotionSites AI",
@@ -13,9 +13,10 @@
     "checked_on": "2026-10-18",
     "width": 1920,
     "height": 1080,
-    "fps": 30,
-    "duration_seconds": 32.5,
-    "evidence_file": "SOURCE_AUDIT/BLOOM_RENDER.json",
-    "rendition": "Locally recorded from the unchanged saved Bloom HTML and its three original 1080p video assets. Deliberate scroll pacing, frame-exact seeks, silent H.264, and a 1.5-second wrap dissolve. Not the publisher's preview."
-  }
+    "fps": 24,
+    "duration_seconds": 23,
+    "evidence_file": "SOURCE_AUDIT/BLOOM_CONTINUOUS.json",
+    "rendition": "Locally recorded from the unchanged saved Bloom HTML and its original 1080p clips. Constant native-speed progress without section holds, silent H.264, and a one-second moving wrap dissolve. Not the publisher preview."
+  },
+  "mobile_video": "VIDEO/bloom-continuous-720p.mp4"
 }

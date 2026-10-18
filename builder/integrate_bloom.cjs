@@ -1,0 +1,27 @@
+'use strict';
+// Integrate only hash-verified recording outputs. Original content is retained.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..');
+const read=name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
+const write=(name,data)=>fs.writeFileSync(path.join(root,name),JSON.stringify(data,null,2)+'\n');
+const hash=name=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex');
+const evidence=read('SOURCE_AUDIT/BLOOM_CONTINUOUS.json');
+assert.deepEqual([evidence.width,evidence.height,evidence.fps,evidence.duration_seconds],[1920,1080,24,23]);
+assert.deepEqual(evidence.runtime_errors,[]);
+assert.equal(hash('VIDEO/bloom-continuous-1080p.mp4'),evidence.output_sha256);
+assert.equal(hash('VIDEO/bloom-continuous-720p.mp4'),evidence.mobile.sha256);
+assert(evidence.output_bytes<8500000&&evidence.mobile.bytes<3500000,'Recording transfer budget exceeded');
+const entries=read('data/library.json'),bloom=entries.find(x=>x.id===57),feature=read('data/feature.json');
+assert.equal(entries.length,865);assert.equal(feature.reference_id,57);
+assert.equal(hash(bloom.prompt_file),evidence.source_prompt_sha256);
+bloom.visual=bloom.full_image='FULL_IMAGES/bloom-continuous.webp';
+bloom.video='VIDEO/bloom-continuous-1080p.mp4';
+bloom.mobile_video='VIDEO/bloom-continuous-720p.mp4';
+bloom.duration=evidence.duration_seconds;
+bloom.preview_note='Recorded from the saved Bloom code and its original HD assets. Continuous native-speed motion · 24 fps · silent 23-second loop. A lighter 720p recording is used on mobile. Original prompt unchanged; this is a local recording, not the publisher preview.';
+bloom.video_rendition='Saved-code recording · 1920 × 1080 desktop / 1280 × 720 mobile · 24 fps · continuous 23-second loop';
+for(const key of ['preview_verification','preview_video_verification'])bloom[key]={...bloom[key],evidence_file:'SOURCE_AUDIT/BLOOM_CONTINUOUS.json'};
+feature.video=bloom.video;feature.mobile_video=bloom.mobile_video;feature.poster=bloom.full_image;
+feature.source={...feature.source,fps:evidence.fps,duration_seconds:evidence.duration_seconds,evidence_file:'SOURCE_AUDIT/BLOOM_CONTINUOUS.json',rendition:'Locally recorded from the unchanged saved Bloom HTML and its original 1080p clips. Constant native-speed progress without section holds, silent H.264, and a one-second moving wrap dissolve. Not the publisher preview.'};
+write('data/library.json',entries);write('data/feature.json',feature);
+console.log('INTEGRATED Bloom continuous desktop/mobile loops; all other records retained');

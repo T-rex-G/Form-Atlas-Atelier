@@ -1,0 +1,44 @@
+{
+  "source_prompt_sha256": "f1745c7fa3bae0cc1da3ff88b865c9d31971b8300e12a8377a43c199404524a3",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "forward_seconds": 24,
+  "duration_seconds": 23,
+  "loop": "Continuous native-speed motion with a one-second moving wrap dissolve; no timing holds",
+  "inputs": [
+    {
+      "id": "v1",
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "source_filename": "202606101700_hglz7q.mp4",
+      "sha256": "cb487ee62352f053c263a4e286dfc753e98ee1cb0314e5fa858ed2d3ea71d75e"
+    },
+    {
+      "id": "v2",
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "source_filename": "202606101702_sd50y0.mp4",
+      "sha256": "66acf2a4848c790797ef158c1e11848995e43a15b6de4fd7afb888e64eb05597"
+    },
+    {
+      "id": "v3",
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "source_filename": "202606101703_jmidj2.mp4",
+      "sha256": "8d014b0acc1a7d5e352e955f1ca466c609494015f1c0f83b4a71947eab56bc40"
+    }
+  ],
+  "output_sha256": "8abf211bf4fe40626b8ecc561cf9d9b0d30bf9f3ba4d752a699e0d42a588b396",
+  "output_bytes": 8329741,
+  "mobile": {
+    "width": 1280,
+    "height": 720,
+    "bytes": 3278227,
+    "sha256": "5b489cf2106f73103caaac5de48f5c0021d3607d196a0dd326051051dcf37111"
+  },
+  "runtime_errors": []
+}

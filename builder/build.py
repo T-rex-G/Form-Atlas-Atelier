@@ -69,10 +69,10 @@ def render(items):
  selected=next(x for x in items if x['id']==feature['reference_id'])
  for key in ('video','poster'):
   if not (R/path(feature[key])).is_file():raise ValueError('Missing featured '+key)
- values={'ID':str(selected['id']),'TITLE':selected.get('display_title') or selected['title'],'DESCRIPTION':feature['description'],'VIDEO':feature['video'],'POSTER':feature['poster']}
+ values={'ID':str(selected['id']),'TITLE':selected.get('display_title') or selected['title'],'DESCRIPTION':feature['description'],'VIDEO':feature['video'],'MOBILE_VIDEO':feature.get('mobile_video',feature['video']),'POSTER':feature['poster']}
  for key,value in values.items():template=template.replace('__FEATURED_'+key+'__',html.escape(value,quote=True))
  if not template.count('__CSS__')==template.count('__DATA__')==template.count('__JS__')==1:raise ValueError('Invalid template')
- template=template.replace('__CSS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['base.css','ui.css'])).replace('__DATA__',json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')).replace('__JS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['clipboard.js','app.js']))
+ template=template.replace('__CSS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['base.css','ui.css'])).replace('__DATA__',json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')).replace('__JS__','\n'.join((R/('builder/'+name)).read_text('utf8') for name in ['clipboard.js','content_loader.js','featured_playback.js','app.js']))
  (R/'START_HERE.html').write_text(template,'utf8');(R/'CATALOG.json').write_text(json.dumps(items,indent=2,ensure_ascii=False))
  with (R/'INDEX.csv').open('w',encoding='utf8',newline='') as f:
   w=csv.writer(f);w.writerow(['ID','Title','Category','Collection','Prompt','Image','Video','Visual provenance','Media role','Source access','Provider','Code','Demo','License'])

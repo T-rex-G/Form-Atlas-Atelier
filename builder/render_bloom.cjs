@@ -13,7 +13,8 @@ const [assetArg,outArg,chromePath,mode]=process.argv.slice(2);
 if(!assetArg||!outArg||!chromePath)throw Error('Provide local asset directory, output directory, and Chrome executable');
 const assets=path.resolve(assetArg),out=path.resolve(outArg);
 fs.mkdirSync(out,{recursive:true});
-const width=1920,height=1080,fps=30,seconds=34,frames=seconds*fps;
+const {fps,seconds,wrapSeconds,progress}=require('./bloom_timeline.cjs');
+const width=1920,height=1080,frames=seconds*fps;
 const sourcePath=path.join(root,'PROMPTS/01-Landing-and-Sections/057-bl.md');
 const original=fs.readFileSync(sourcePath,'utf8');
 const sourceHash=crypto.createHash('sha256').update(original).digest('hex');
@@ -77,9 +78,7 @@ const server=http.createServer((req,res)=>{
  if(range){const start=Number(range[1]),end=range[2]?Math.min(Number(range[2]),size-1):size-1;if(start>end){res.writeHead(416);res.end();return;}res.writeHead(206,{'Content-Type':type,'Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${size}`,'Content-Length':end-start+1});fs.createReadStream(file,{start,end}).pipe(res);}
  else{res.writeHead(200,{'Content-Type':type,'Content-Length':size,'Accept-Ranges':'bytes'});fs.createReadStream(file).pipe(res);}
 });
-// A slow forward scroll is followed by a 1.5-second wrap dissolve, not a hard cut.
-const keys=[[0,0],[3,.015],[7,.15],[11,.325],[14,.325],[15.5,.44],[18,.51],[20,.58],[23,.69],[25,.76],[27,.86],[29,.94],[32,.985],[34,.995]];
-function progress(t){for(let i=1;i<keys.length;i++)if(t<=keys[i][0]){const [a,p]=keys[i-1],[b,q]=keys[i],r=(t-a)/(b-a),s=r*r*(3-2*r);return p+(q-p)*s;}return keys.at(-1)[1];}
+// Constant forward motion: no section holds or zero-velocity easing keys.
 (async()=>{
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  const url='http://127.0.0.1:'+server.address().port+'/';
@@ -103,19 +102,22 @@ function progress(t){for(let i=1;i<keys.length;i++)if(t<=keys[i][0]){const [a,p]
   encoder=spawn('ffmpeg',['-v','error','-n','-f','image2pipe','-framerate',String(fps),'-i','pipe:0','-an','-c:v','libx264','-preset','fast','-crf','16','-pix_fmt','yuv420p','-movflags','+faststart','-threads','2',master],{stdio:['pipe','inherit','inherit']});
   let encoderError;encoder.on('error',e=>{encoderError=e;});
   for(let i=0;i<frames;i++){
-   await page.evaluate(p=>window.__captureBloom(p),progress(i/fps));
-   const png=await page.screenshot({type:'png'});
+   await page.evaluate(p=>window.__captureBloom(p),progress((i+.5)/fps));
+   const png=await page.screenshot({type:'jpeg',quality:97});
    if(encoderError)throw encoderError;
    if(!encoder.stdin.write(png))await once(encoder.stdin,'drain');
    if(i%90===0)console.log('RENDER '+i+'/'+frames);
   }
   encoder.stdin.end();const [code]=await once(encoder,'exit');if(code!==0)throw Error('Master encoder failed');encoder=null;
-  const output=path.join(out,'bloom-code-render-1080p.mp4');
-  const filter='[0:v]split[a][b];[a]trim=start=1.5,setpts=PTS-STARTPTS[body];[b]trim=end=1.5,setpts=PTS-STARTPTS[head];[body][head]xfade=transition=fade:duration=1.5:offset=31,format=yuv420p[out]';
-  const result=spawnSync('ffmpeg',['-v','error','-n','-i',master,'-filter_complex_threads','1','-filter_complex',filter,'-map','[out]','-an','-c:v','libx264','-preset','slow','-crf','20','-maxrate','5M','-bufsize','10M','-pix_fmt','yuv420p','-movflags','+faststart','-threads','2',output],{stdio:'inherit'});
+  const output=path.join(out,'bloom-continuous-1080p.mp4');
+  const filter=`[0:v]split[a][b];[a]trim=start=${wrapSeconds},setpts=PTS-STARTPTS[body];[b]trim=end=${wrapSeconds},setpts=PTS-STARTPTS[head];[body][head]xfade=transition=fade:duration=${wrapSeconds}:offset=${seconds-2*wrapSeconds},format=yuv420p[out]`;
+  const result=spawnSync('ffmpeg',['-v','error','-n','-i',master,'-filter_complex_threads','1','-filter_complex',filter,'-map','[out]','-an','-c:v','libx264','-preset','slow','-crf','23','-maxrate','2800k','-bufsize','5600k','-pix_fmt','yuv420p','-movflags','+faststart','-threads','2',output],{stdio:'inherit'});
   if(result.status!==0)throw Error('Loop encoder failed');
+  const mobile=path.join(out,'bloom-continuous-720p.mp4');
+  const smaller=spawnSync('ffmpeg',['-v','error','-n','-i',output,'-vf','scale=1280:720:flags=lanczos','-an','-c:v','libx264','-preset','slow','-crf','24','-maxrate','1100k','-bufsize','2200k','-pix_fmt','yuv420p','-movflags','+faststart','-threads','2',mobile],{stdio:'inherit'});
+  if(smaller.status!==0)throw Error('Mobile encoder failed');
   if(errors.length)throw Error('Design runtime errors: '+JSON.stringify(errors));
-  const metadata={source_prompt_sha256:sourceHash,width,height,fps,forward_seconds:seconds,duration_seconds:32.5,loop:'1.5-second head-to-tail wrap dissolve; adjacent original timeline frames meet at the file boundary',inputs:inputs.map((v,i)=>({...v,source_filename:filenames[i],sha256:crypto.createHash('sha256').update(fs.readFileSync(allowed.get('/assets/'+v.id+'.mp4'))).digest('hex')})),output_sha256:crypto.createHash('sha256').update(fs.readFileSync(output)).digest('hex'),runtime_errors:errors};
+  const metadata={source_prompt_sha256:sourceHash,width,height,fps,forward_seconds:seconds,duration_seconds:seconds-wrapSeconds,loop:'Continuous native-speed motion with a one-second moving wrap dissolve; no timing holds',inputs:inputs.map((v,i)=>({...v,source_filename:filenames[i],sha256:crypto.createHash('sha256').update(fs.readFileSync(allowed.get('/assets/'+v.id+'.mp4'))).digest('hex')})),output_sha256:crypto.createHash('sha256').update(fs.readFileSync(output)).digest('hex'),output_bytes:fs.statSync(output).size,mobile:{width:1280,height:720,bytes:fs.statSync(mobile).size,sha256:crypto.createHash('sha256').update(fs.readFileSync(mobile)).digest('hex')},runtime_errors:errors};
   fs.writeFileSync(path.join(out,'bloom-render-evidence.json'),JSON.stringify(metadata,null,2)+'\n');
   console.log('RENDER COMPLETE '+JSON.stringify(metadata));
  }finally{if(encoder)encoder.kill('SIGTERM');if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}

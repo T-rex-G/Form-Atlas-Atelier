@@ -20,3 +20,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.s
 .access-evidence strong{display:block;font-size:12px;font-weight:600;line-height:1.5}
 .access-evidence p{margin:7px 0 0;font-size:12px;line-height:1.65;color:var(--sub);overflow-wrap:anywhere}
 .access-evidence small{display:block;margin-top:9px;font-size:11px;line-height:1.6;color:var(--faint);overflow-wrap:anywhere}
+.content-loading{min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:28px;color:var(--sub);text-align:center;font-size:13px;line-height:1.7}
+.content-loading[aria-busy=true]::before{content:'';width:23px;height:23px;border:1px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:atlas-loading 1s linear infinite}
+.search-status{display:flex;align-items:center;gap:16px;margin:0 0 20px;color:var(--sub);font-size:12px;line-height:1.7}
+.featured-start{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;display:flex;align-items:center;gap:11px;min-height:48px;max-width:85%;padding:13px 18px;border:1px solid #c7b59180;border-radius:10px;background:#111110dd;backdrop-filter:blur(14px);color:#f1eadc;font-size:12px;white-space:nowrap;box-shadow:0 12px 40px #0005}
+.featured-start svg{width:17px;height:17px}
+@keyframes atlas-loading{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.content-loading[aria-busy=true]::before{animation:none}}
